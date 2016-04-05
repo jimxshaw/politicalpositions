@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">PoliticalPositions</string>
     <string name="action_settings">Settings</string>
+    <string name="issue_title_label">TITLE</string>
+    <string name="issue_quote_label">DIRECT QUOTE</string>
+    <string name="issue_source_label">SOURCE</string>
+    <string name="issue_date_label">DATE</string>
 </resources>
