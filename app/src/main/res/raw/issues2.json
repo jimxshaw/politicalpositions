@@ -1,5 +1,6 @@
-{
-  "independence": {
+[
+  {
+    "title": "independence",
     "quotes": [
       {
         "candidate": "Thomas Jefferson",
@@ -15,7 +16,8 @@
       }
     ]
   },
-  "economy": {
+  {
+    "title": "economy",
     "quotes": [
       {
         "candidate": "George Washington",
@@ -31,4 +33,4 @@
       }
     ]
   }
-}
+]
