@@ -1,28 +1,23 @@
 package me.jimmyshaw.politicalpositions;
 
-import android.net.Uri;
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.UUID;
+import java.util.ArrayList;
 
 public class Issue {
 
-    private UUID mId;
+    private int mId;
     private String mTitle;
-    private Date mDate;
-    private String mQuote;
-    private Uri mSource;
+    private ArrayList<Quote> mQuotes;
 
     public Issue() {
-        // Generate unique identifier.
-        mId = UUID.randomUUID();
-        mDate = new Date();
+        mQuotes = new ArrayList<>();
     }
 
-    public UUID getId() {
+    public int getId() {
         return mId;
+    }
+
+    public void setId(int id) {
+        mId = id;
     }
 
     public String getTitle() {
@@ -33,38 +28,16 @@ public class Issue {
         mTitle = title;
     }
 
-    public Date getDate() {
-        return mDate;
+    public ArrayList<Quote> getQuotes() {
+        return mQuotes;
     }
 
-    public void setDate(String dateString) {
-        // Converts a String date input into a Date object and then set it
-        // to our mDate field.
-        SimpleDateFormat formatter = new SimpleDateFormat("MMM dd, yyyy");
-
-        try {
-            mDate = formatter.parse(dateString);
-        }
-        catch (ParseException e) {
-            e.printStackTrace();
-        }
+    public void setQuotes(ArrayList<Quote> quotes) {
+        mQuotes = quotes;
     }
 
-    public String getQuote() {
-        return mQuote;
+    public int quotesCount() {
+        return mQuotes.size();
     }
 
-    public void setQuote(String quote) {
-        mQuote = quote;
-    }
-
-    public Uri getSource() {
-        return mSource;
-    }
-
-    public void setSource(String uriString) {
-        Uri uri = Uri.parse(uriString);
-
-        mSource = uri;
-    }
 }

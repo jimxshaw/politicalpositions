@@ -16,6 +16,13 @@
         android:text="@string/issue_title_label"/>
 
     <TextView
+        android:id="@+id/issue_candidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/issue_candidate_label"/>
+
+    <TextView
         android:id="@+id/issue_quote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

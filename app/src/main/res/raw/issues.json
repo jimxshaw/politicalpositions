@@ -1,0 +1,34 @@
+{
+  "independence": {
+    "quotes": [
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "The 13 Colonies should be free from Great Britain.",
+        "date": "JUL 04, 1776",
+        "source": "www.foxnews.com"
+      },
+      {
+        "candidate": "Alexander Hamilton",
+        "quote": "We are all Britons. We must remain loyal!",
+        "date": "JUL 01, 1776",
+        "source": "www.cnn.com"
+      }
+    ]
+  }
+  "economy": {
+    "quotes": [
+      {
+        "candidate": "George Washington",
+        "quote": "Our United States should remain an agrarian society.",
+        "date": "JAN 01, 1780",
+        "source": "www.msnbc.com"
+      },
+      {
+        "candidate": "John Adams",
+        "quote": "Industry is the future. We cannot hope to compete in the world unless we pursue industry."
+        "date": "MAY 19, 1802",
+        "source": "www.huffingtonpost.com"
+      }
+    ]
+  }
+}
