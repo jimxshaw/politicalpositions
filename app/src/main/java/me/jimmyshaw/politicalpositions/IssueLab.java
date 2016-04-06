@@ -22,6 +22,17 @@ public class IssueLab {
 
     private IssueLab(Context context) {
         mIssues = new ArrayList<>();
+
+        try {
+            parseJSONFromRes(context);
+        }
+        catch (IOException ex) {
+            ex.printStackTrace();
+        }
+        catch (JSONException ex) {
+            ex.printStackTrace();
+        }
+
     }
 
     public static IssueLab get(Context context) {
