@@ -1,10 +1,11 @@
 package me.jimmyshaw.politicalpositions;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class Issue {
 
-    private int mId;
+    private UUID mId;
     private String mTitle;
     private ArrayList<Quote> mQuotes;
 
@@ -12,11 +13,11 @@ public class Issue {
         mQuotes = new ArrayList<>();
     }
 
-    public int getId() {
+    public UUID getId() {
         return mId;
     }
 
-    public void setId(int id) {
+    public void setId(UUID id) {
         mId = id;
     }
 
