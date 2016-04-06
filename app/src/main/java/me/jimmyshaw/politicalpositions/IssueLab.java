@@ -13,9 +13,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.UUID;
 
 public class IssueLab {
 
@@ -69,12 +67,31 @@ public class IssueLab {
     private void parseJSONFromRes(Context context) throws JSONException, IOException {
         String issuesJSONString = readJSONFromRes(R.raw.issues2, context);
 
-        JSONArray rootJSONObject = new JSONArray(issuesJSONString);
+        JSONArray rootJSONArray = new JSONArray(issuesJSONString);
 
-        for (int i = 0; i < rootJSONObject.length(); i++) {
+        for (int i = 0; i < rootJSONArray.length(); i++) {
+            JSONObject issueJSONObject = rootJSONArray.getJSONObject(i);
             Issue issue = new Issue();
+            issue.setId(i);
+            issue.setTitle(issueJSONObject.getString("title"));
 
+            ArrayList<Quote> quotes = new ArrayList<>();
 
+            for (int j = 0; j < issueJSONObject.getJSONArray("quotes").length(); j++) {
+                JSONObject quoteJSONObject = issueJSONObject.getJSONArray("quotes").getJSONObject(i);
+
+                Quote quote = new Quote();
+                quote.setCandidate(quoteJSONObject.getString("candidate"));
+                quote.setQuote(quoteJSONObject.getString("quote"));
+                quote.setDate(quoteJSONObject.getString("date"));
+                quote.setSource(quoteJSONObject.getString("source"));
+
+                quotes.add(quote);
+            }
+
+            issue.setQuotes(quotes);
+
+            mIssues.add(issue);
         }
     }
 }
