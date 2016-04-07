@@ -1,35 +1,378 @@
 [
   {
-    "title": "independence",
+    "title": "Energy",
     "quotes": [
       {
-        "candidate": "Thomas Jefferson",
-        "quote": "The 13 Colonies should be free from Great Britain.",
-        "date": "JUL 04, 1776",
-        "source": "www.foxnews.com"
+        "candidate": "George Washington",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "DEC 12, 2015",
+        "source": "http://www.foxnews.com"
       },
       {
-        "candidate": "Alexander Hamilton",
-        "quote": "We are all Britons. We must remain loyal!",
-        "date": "JUL 01, 1776",
-        "source": "www.cnn.com"
+        "candidate": "Thomas Jefferson",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "JAN 30, 2016",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Vivamus ac leo sem.",
+        "date": "MAR 11, 2011",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "John Adams",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "SEP 09, 2004",
+        "source": "http://www.politico.com"
       }
     ]
   },
   {
-    "title": "economy",
+    "title": "Veterans",
     "quotes": [
       {
+        "candidate": "John Adams",
+        "quote": "Curabitur ornare, libero et ultricies lobortis.",
+        "date": "APR 04, 2013",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Etiam pharetra vestibulum nulla id hendrerit.",
+        "date": "NOV 25, 2012",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Quisque euismod, enim vitae porttitor tincidunt.",
+        "date": "JUL 04, 2008",
+        "source": "http://www.msnbc.com"
+      },
+      {
         "candidate": "George Washington",
-        "quote": "Our United States should remain an agrarian society.",
-        "date": "JAN 01, 1780",
-        "source": "www.msnbc.com"
+        "quote": "Mauris elementum tempus libero, id ornare libero semper eu.",
+        "date": "FEB 11, 2013",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Taxes",
+    "quotes": [
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "JUN 04, 2011",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "MAY 28, 2014",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "George Washington",
+        "quote": "Vivamus ac leo sem.",
+        "date": "DEC 01, 2015",
+        "source": "http://www.msnbc.com"
       },
       {
         "candidate": "John Adams",
-        "quote": "Industry is the future. We cannot hope to compete in the world unless we pursue industry.",
-        "date": "MAY 19, 1802",
-        "source": "www.huffingtonpost.com"
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "AUG 21, 2010",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Defense",
+    "quotes": [
+      {
+        "candidate": "John Adams",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "AUG 10, 2003",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "JAN 31, 2016",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Vivamus ac leo sem.",
+        "date": "NOV 30, 2010",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "George Washington",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "MAR 07, 2014",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Health care",
+    "quotes": [
+      {
+        "candidate": "George Washington",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "MAY 10, 2003",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "FEB 31, 2016",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "John Adams",
+        "quote": "Vivamus ac leo sem.",
+        "date": "SEP 30, 2010",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "OCT 07, 2014",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Budget and spending",
+    "quotes": [
+      {
+        "candidate": "George Washington",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "DEC 12, 2015",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "JAN 30, 2016",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Vivamus ac leo sem.",
+        "date": "MAR 11, 2011",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "John Adams",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "SEP 09, 2004",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Foreign policy",
+    "quotes": [
+      {
+        "candidate": "John Adams",
+        "quote": "Curabitur ornare, libero et ultricies lobortis.",
+        "date": "APR 04, 2013",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Etiam pharetra vestibulum nulla id hendrerit.",
+        "date": "NOV 25, 2012",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Quisque euismod, enim vitae porttitor tincidunt.",
+        "date": "JUL 04, 2008",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "George Washington",
+        "quote": "Mauris elementum tempus libero, id ornare libero semper eu.",
+        "date": "FEB 11, 2013",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Civil liberties",
+    "quotes": [
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "JUN 04, 2011",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "MAY 28, 2014",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "George Washington",
+        "quote": "Vivamus ac leo sem.",
+        "date": "DEC 01, 2015",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "John Adams",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "AUG 21, 2010",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Education",
+    "quotes": [
+      {
+        "candidate": "John Adams",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "AUG 10, 2003",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "JAN 31, 2016",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Vivamus ac leo sem.",
+        "date": "NOV 30, 2010",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "George Washington",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "MAR 07, 2014",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Crime and safety",
+    "quotes": [
+      {
+        "candidate": "George Washington",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "MAY 10, 2003",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "FEB 31, 2016",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "John Adams",
+        "quote": "Vivamus ac leo sem.",
+        "date": "SEP 30, 2010",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "OCT 07, 2014",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Environment",
+    "quotes": [
+      {
+        "candidate": "George Washington",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "DEC 12, 2015",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "JAN 30, 2016",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Vivamus ac leo sem.",
+        "date": "MAR 11, 2011",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "John Adams",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "SEP 09, 2004",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Immigration",
+    "quotes": [
+      {
+        "candidate": "John Adams",
+        "quote": "Curabitur ornare, libero et ultricies lobortis.",
+        "date": "APR 04, 2013",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Etiam pharetra vestibulum nulla id hendrerit.",
+        "date": "NOV 25, 2012",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Quisque euismod, enim vitae porttitor tincidunt.",
+        "date": "JUL 04, 2008",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "George Washington",
+        "quote": "Mauris elementum tempus libero, id ornare libero semper eu.",
+        "date": "FEB 11, 2013",
+        "source": "http://www.politico.com"
+      }
+    ]
+  },
+  {
+    "title": "Economy",
+    "quotes": [
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "JUN 04, 2011",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "MAY 28, 2014",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "George Washington",
+        "quote": "Vivamus ac leo sem.",
+        "date": "DEC 01, 2015",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "John Adams",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "AUG 21, 2010",
+        "source": "http://www.politico.com"
       }
     ]
   }

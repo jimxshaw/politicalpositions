@@ -89,7 +89,7 @@ public class IssueLab {
             ArrayList<Quote> quotes = new ArrayList<>();
 
             for (int j = 0; j < issueJSONObject.getJSONArray("quotes").length(); j++) {
-                JSONObject quoteJSONObject = issueJSONObject.getJSONArray("quotes").getJSONObject(i);
+                JSONObject quoteJSONObject = issueJSONObject.getJSONArray("quotes").getJSONObject(j);
 
                 Quote quote = new Quote();
                 quote.setCandidate(quoteJSONObject.getString("candidate"));
