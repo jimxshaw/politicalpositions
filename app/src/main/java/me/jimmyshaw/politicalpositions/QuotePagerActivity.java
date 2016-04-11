@@ -41,12 +41,8 @@ public class QuotePagerActivity extends FragmentActivity {
         mViewPager.setAdapter(new FragmentStatePagerAdapter(fragmentManager) {
             @Override
             public Fragment getItem(int position) {
-
-
-                // TODO: finish implementing getItem method
-
-
-                return null;
+                Quote quote = mQuotes.get(position);
+                return QuoteFragment.newInstance(quote.getId());
             }
 
             @Override
