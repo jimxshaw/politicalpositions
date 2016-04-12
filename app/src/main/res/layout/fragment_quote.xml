@@ -9,18 +9,18 @@
     android:layout_marginBottom="16dp">
 
     <TextView
-        android:id="@+id/issue_title"
+        android:id="@+id/issue_quote_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/issue_title_label"/>
+        android:text="@string/issue_quote_title_label"/>
 
     <TextView
-        android:id="@+id/issue_candidate"
+        android:id="@+id/issue_quote_candidate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/issue_candidate_label"/>
+        android:text="@string/issue_quote_candidate_label"/>
 
     <TextView
         android:id="@+id/issue_quote"
@@ -36,18 +36,18 @@
         android:gravity="center">
 
         <TextView
-            android:id="@+id/issue_source"
+            android:id="@+id/issue_quote_source"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="40dp"
-            android:text="@string/issue_source_label"/>
+            android:text="@string/issue_quote_source_label"/>
 
         <TextView
-            android:id="@+id/issue_date"
+            android:id="@+id/issue_quote_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-            android:text="@string/issue_date_label" />
+            android:text="@string/issue_quote_date_label" />
 
     </LinearLayout>
 

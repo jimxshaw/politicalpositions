@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Quote {
+    private int mId;
     private String mCandidate;
     private String mQuote;
     private Date mDate;
@@ -14,6 +15,14 @@ public class Quote {
 
     public Quote() {
         mDate = new Date();
+    }
+
+    public int getId() {
+        return mId;
+    }
+
+    public void setId(int id) {
+        mId = id;
     }
 
     public String getCandidate() {

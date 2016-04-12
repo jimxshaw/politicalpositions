@@ -92,6 +92,7 @@ public class IssueLab {
                 JSONObject quoteJSONObject = issueJSONObject.getJSONArray("quotes").getJSONObject(j);
 
                 Quote quote = new Quote();
+                quote.setId(j);
                 quote.setCandidate(quoteJSONObject.getString("candidate"));
                 quote.setQuote(quoteJSONObject.getString("quote"));
                 quote.setDate(quoteJSONObject.getString("date"));
