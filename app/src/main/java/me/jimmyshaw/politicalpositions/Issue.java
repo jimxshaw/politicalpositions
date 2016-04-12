@@ -33,7 +33,6 @@ public class Issue {
             if (quote.getId() == quoteId) {
                 return quote;
             }
-            return null;
         }
         return null;
     }
