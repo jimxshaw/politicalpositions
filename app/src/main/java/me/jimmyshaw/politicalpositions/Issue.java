@@ -28,6 +28,16 @@ public class Issue {
         mTitle = title;
     }
 
+    public Quote getQuote(int quoteId) {
+        for (Quote quote : mQuotes) {
+            if (quote.getId() == quoteId) {
+                return quote;
+            }
+            return null;
+        }
+        return null;
+    }
+
     public ArrayList<Quote> getQuotes() {
         return mQuotes;
     }

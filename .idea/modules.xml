@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/PoliticalPositions.iml" filepath="$PROJECT_DIR$/PoliticalPositions.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/politicalpositions.iml" filepath="$PROJECT_DIR$/politicalpositions.iml" />
     </modules>
   </component>
 </project>

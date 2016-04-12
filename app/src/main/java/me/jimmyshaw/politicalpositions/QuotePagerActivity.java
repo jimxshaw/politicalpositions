@@ -17,6 +17,8 @@ public class QuotePagerActivity extends FragmentActivity {
 
     private static final String EXTRA_ISSUE_ID = "issue_id";
 
+    private int issueId;
+
     private ViewPager mViewPager;
     private List<Quote> mQuotes;
 
@@ -31,7 +33,7 @@ public class QuotePagerActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quote_pager);
 
-        int issueId = (int) getIntent().getSerializableExtra(EXTRA_ISSUE_ID);
+        issueId = (int) getIntent().getSerializableExtra(EXTRA_ISSUE_ID);
 
         mViewPager = (ViewPager) findViewById(R.id.activity_quote_pager_view_pager);
 
@@ -42,7 +44,7 @@ public class QuotePagerActivity extends FragmentActivity {
             @Override
             public Fragment getItem(int position) {
                 Quote quote = mQuotes.get(position);
-                return QuoteFragment.newInstance(quote.getId());
+                return QuoteFragment.newInstance(issueId, quote.getId());
             }
 
             @Override
