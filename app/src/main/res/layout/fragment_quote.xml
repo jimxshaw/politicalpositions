@@ -23,11 +23,11 @@
         android:text="@string/issue_quote_candidate_label"/>
 
     <TextView
-        android:id="@+id/issue_quote"
+        android:id="@+id/issue_quote_body"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/issue_quote_label"/>
+        android:text="@string/issue_quote_body_label"/>
 
     <LinearLayout
         android:layout_width="match_parent"
