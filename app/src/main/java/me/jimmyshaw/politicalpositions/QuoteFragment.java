@@ -58,7 +58,6 @@ public class QuoteFragment extends Fragment {
         mQuoteBody = (TextView) view.findViewById(R.id.issue_quote_body);
         mQuoteBody.setText(mQuote.getQuote());
 
-        // TODO: Refactor the string source into an actual URL.
         mQuoteSource = (TextView) view.findViewById(R.id.issue_quote_source);
         mQuoteSource.setText(R.string.issue_quote_source_label);
         mQuoteSource.setOnClickListener(new View.OnClickListener() {

@@ -26,5 +26,4 @@ dependencies {
     compile 'com.android.support:design:23.2.1'
     compile 'com.android.support:support-v4:23.2.1'
     compile 'com.android.support:recyclerview-v7:23.2.1'
-    compile 'fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar'
 }
