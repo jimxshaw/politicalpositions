@@ -23,8 +23,8 @@ public class QuoteFragment extends Fragment {
 
     public static QuoteFragment newInstance(int issueId, int quoteId) {
         Bundle args = new Bundle();
-        args.putSerializable(ARG_ISSUE_ID, issueId);
-        args.putSerializable(ARG_QUOTE_ID, quoteId);
+        args.putInt(ARG_ISSUE_ID, issueId);
+        args.putInt(ARG_QUOTE_ID, quoteId);
         QuoteFragment quoteFragment = new QuoteFragment();
         quoteFragment.setArguments(args);
         return quoteFragment;
@@ -34,9 +34,10 @@ public class QuoteFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        int issueId = (int) getArguments().getSerializable(ARG_ISSUE_ID);
-        int quoteId = (int) getArguments().getSerializable(ARG_QUOTE_ID);
-        mQuote = IssueLab.get(getActivity()).getIssue(issueId).getQuote(quoteId);
+        int issueId = getArguments().getInt(ARG_ISSUE_ID, 0);
+        int quoteId = getArguments().getInt(ARG_QUOTE_ID, 0);
+        mIssue = IssueLab.get(getActivity()).getIssue(issueId);
+        mQuote = mIssue.getQuote(quoteId);
     }
 
     @Override
@@ -60,7 +61,7 @@ public class QuoteFragment extends Fragment {
         mQuoteDate = (TextView) view.findViewById(R.id.issue_quote_date);
         mQuoteDate.setText(mQuote.getDate().toString());
 
-        
+
         return view;
     }
 }

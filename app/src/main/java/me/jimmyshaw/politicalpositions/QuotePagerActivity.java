@@ -22,7 +22,7 @@ public class QuotePagerActivity extends FragmentActivity {
     private ViewPager mViewPager;
     private List<Quote> mQuotes;
 
-    public static Intent newInstance(Context packageContext, int issueId) {
+    public static Intent newIntent(Context packageContext, int issueId) {
         Intent intent = new Intent(packageContext, QuotePagerActivity.class);
         intent.putExtra(EXTRA_ISSUE_ID, issueId);
         return intent;
@@ -33,7 +33,7 @@ public class QuotePagerActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quote_pager);
 
-        issueId = (int) getIntent().getSerializableExtra(EXTRA_ISSUE_ID);
+        issueId = getIntent().getIntExtra(EXTRA_ISSUE_ID, 0);
 
         mViewPager = (ViewPager) findViewById(R.id.activity_quote_pager_view_pager);
 
@@ -54,4 +54,6 @@ public class QuotePagerActivity extends FragmentActivity {
         });
 
     }
+
+
 }

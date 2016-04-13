@@ -1,5 +1,6 @@
 package me.jimmyshaw.politicalpositions;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,6 +13,12 @@ import android.widget.Toast;
 
 import java.util.List;
 
+// IssueListActivity will host this IssueListFragment that contains a RecyclerView with its two usual
+// utility classes, a ViewHolder and an Adapter. This Fragment's purpose to show our list of issues
+// retrieved from IssueLab. A ViewHolder holds on to a view. An Adapter creates ViewHolders. It's a
+// controller object that sits between the RecyclerView and the data set that the RecyclerView
+// should display. Its responsibilities are creating the necessary ViewHolders and binding
+// ViewHolders to data from the model layer.
 public class IssueListFragment extends Fragment {
 
     private RecyclerView mIssueRecyclerView;
@@ -55,9 +62,12 @@ public class IssueListFragment extends Fragment {
             mTitleTextView.setText(issue.getTitle());
         }
 
+        // When a particular issue is clicked from our list of issues, an intent is fired to start
+        //
         @Override
         public void onClick(View v) {
-            Toast.makeText(getActivity(), "Issue displayed!", Toast.LENGTH_SHORT).show();
+            Intent intent = QuotePagerActivity.newIntent(getActivity(), mIssue.getId());
+            startActivity(intent);
         }
     }
 
