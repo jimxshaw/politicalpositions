@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="issue_quote_title_label">ISSUE TITLE</string>
     <string name="issue_quote_body_label">DIRECT QUOTE</string>
-    <string name="issue_quote_source_label">SOURCE</string>
+    <string name="issue_quote_source_label">Source</string>
     <string name="issue_quote_date_label">DATE</string>
     <string name="issue_quote_candidate_label">CANDIDATE</string>
 </resources>
