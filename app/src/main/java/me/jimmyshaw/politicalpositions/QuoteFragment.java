@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
+
 public class QuoteFragment extends Fragment {
 
     private static final String ARG_ISSUE_ID = "issue_id";
@@ -59,7 +61,9 @@ public class QuoteFragment extends Fragment {
         mQuoteSource.setText(mQuote.getSource().toString());
 
         mQuoteDate = (TextView) view.findViewById(R.id.issue_quote_date);
-        mQuoteDate.setText(mQuote.getDate().toString());
+        String rawDate = mQuote.getDate().toString();
+        String date = rawDate.substring(4, 10) + "," + rawDate.substring(23);
+        mQuoteDate.setText(date);
 
 
         return view;
