@@ -8,12 +8,13 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 
 import java.util.List;
 
 // Every issue has a list of quotes. Our QuotePagerActivity will host a list of QuoteFragments and
 // allows us to page through the quotes about the selected issue.
-public class QuotePagerActivity extends FragmentActivity {
+public class QuotePagerActivity extends AppCompatActivity {
 
     private static final String EXTRA_ISSUE_ID = "issue_id";
 
