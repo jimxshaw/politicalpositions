@@ -6,12 +6,16 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.List;
+import java.util.zip.Inflater;
 
 // IssueListActivity will host this IssueListFragment that contains a RecyclerView with its two usual
 // utility classes, a ViewHolder and an Adapter. This Fragment's purpose to show our list of issues
@@ -23,6 +27,13 @@ public class IssueListFragment extends Fragment {
 
     private RecyclerView mIssueRecyclerView;
     private IssueAdapter mAdapter;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setHasOptionsMenu(true);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -43,6 +54,25 @@ public class IssueListFragment extends Fragment {
 
         mAdapter = new IssueAdapter(issues);
         mIssueRecyclerView.setAdapter(mAdapter);
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.fragment_issue_list, menu);
+
+        MenuItem aboutScreenItem = menu.findItem(R.id.menu_item_about_screen);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem menuItem) {
+        switch (menuItem.getItemId()) {
+            case R.id.menu_item_about_screen:
+
+                return true;
+            default:
+                return super.onOptionsItemSelected(menuItem);
+        }
     }
 
     private class IssueHolder extends RecyclerView.ViewHolder
