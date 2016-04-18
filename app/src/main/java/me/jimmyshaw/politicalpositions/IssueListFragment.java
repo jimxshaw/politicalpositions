@@ -68,7 +68,8 @@ public class IssueListFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem menuItem) {
         switch (menuItem.getItemId()) {
             case R.id.menu_item_about_screen:
-
+                Intent intent = new Intent(getContext(), AboutScreenActivity.class);
+                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(menuItem);

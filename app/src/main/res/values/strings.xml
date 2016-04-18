@@ -7,4 +7,5 @@
     <string name="issue_quote_date_label">DATE</string>
     <string name="issue_quote_candidate_label">CANDIDATE</string>
     <string name="about_screen">About</string>
+    <string name="about_screen_body">PoliticalPositions \u00A9 2016, Jimmy Shaw</string>
 </resources>
