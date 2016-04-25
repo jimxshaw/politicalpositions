@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="icon"
-        android:src="@drawable/foreign_policy"/>
+        android:src="@drawable/ic_issues_foreign_policy"/>
 
     <TextView
         android:id="@+id/list_item_issue_title_text_view"
