@@ -12,10 +12,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
-import java.util.zip.Inflater;
 
 // IssueListActivity will host this IssueListFragment that contains a RecyclerView with its two usual
 // utility classes, a ViewHolder and an Adapter. This Fragment's purpose to show our list of issues
@@ -59,7 +57,7 @@ public class IssueListFragment extends Fragment {
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.fragment_issue_list, menu);
+        inflater.inflate(R.menu.menu_fragment_issue_list, menu);
 
         MenuItem aboutScreenItem = menu.findItem(R.id.menu_item_about_screen);
     }
