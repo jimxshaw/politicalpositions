@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 
 import java.util.List;
@@ -38,7 +39,14 @@ public class QuotePagerActivity extends AppCompatActivity {
 
         mViewPager = (ViewPager) findViewById(R.id.activity_quote_pager_view_pager);
 
-        mQuotes = IssueLab.get(this).getIssue(issueId).getQuotes();
+        Issue mIssue = IssueLab.get(this).getIssue(issueId);
+
+        mQuotes = mIssue.getQuotes();
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setTitle(mIssue.getTitle());
+        }
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         mViewPager.setAdapter(new FragmentStatePagerAdapter(fragmentManager) {
