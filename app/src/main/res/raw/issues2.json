@@ -375,5 +375,34 @@
         "source": "http://www.politico.com"
       }
     ]
+  },
+  {
+    "title": "Abortion",
+    "quotes": [
+      {
+        "candidate": "Thomas Jefferson",
+        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "date": "MAY 10, 2014",
+        "source": "http://www.foxnews.com"
+      },
+      {
+        "candidate": "James Madison",
+        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "date": "AUG 28, 2015",
+        "source": "http://www.cnn.com"
+      },
+      {
+        "candidate": "George Washington",
+        "quote": "Vivamus ac leo sem.",
+        "date": "FEB 02, 2015",
+        "source": "http://www.msnbc.com"
+      },
+      {
+        "candidate": "John Adams",
+        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "date": "OCT 12, 2011",
+        "source": "http://www.politico.com"
+      }
+    ]
   }
 ]
