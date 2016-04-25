@@ -53,33 +53,30 @@ public class QuoteFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_quote, container, false);
 
-        mQuoteTitle = (TextView) view.findViewById(R.id.issue_quote_title);
-        mQuoteTitle.setText(mIssue.getTitle());
-
-        mQuoteCandidate = (TextView) view.findViewById(R.id.issue_quote_candidate);
-        mQuoteCandidate.setText(mQuote.getCandidate());
-
-        mQuoteBody = (TextView) view.findViewById(R.id.issue_quote_body);
-        mQuoteBody.setText(mQuote.getQuote());
-
-        mQuoteSource = (TextView) view.findViewById(R.id.issue_quote_source);
-        mQuoteSource.setText(R.string.issue_quote_source_label);
-        mQuoteSource.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(mQuote.getSource().toString()));
-                startActivity(intent);
-            }
-        });
-
-        mQuoteDate = (TextView) view.findViewById(R.id.issue_quote_date);
-        String rawDate = mQuote.getDate().toString();
-        String date = rawDate.substring(4, 10) + "," + rawDate.substring(23);
-        mQuoteDate.setText(date);
+//        mQuoteCandidate = (TextView) view.findViewById(R.id.issue_quote_candidate);
+//        mQuoteCandidate.setText(mQuote.getCandidate());
+//
+//        mQuoteBody = (TextView) view.findViewById(R.id.issue_quote_body);
+//        mQuoteBody.setText(mQuote.getQuote());
+//
+//        mQuoteSource = (TextView) view.findViewById(R.id.issue_quote_source);
+//        mQuoteSource.setText(R.string.issue_quote_source_label);
+//        mQuoteSource.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Intent.ACTION_VIEW);
+//                intent.setData(Uri.parse(mQuote.getSource().toString()));
+//                startActivity(intent);
+//            }
+//        });
+//
+//        mQuoteDate = (TextView) view.findViewById(R.id.issue_quote_date);
+//        String rawDate = mQuote.getDate().toString();
+//        String date = rawDate.substring(4, 10) + "," + rawDate.substring(23);
+//        mQuoteDate.setText(date);
 
 
         return view;
     }
-    
+
 }
