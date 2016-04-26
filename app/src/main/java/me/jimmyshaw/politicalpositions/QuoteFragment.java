@@ -24,6 +24,7 @@ public class QuoteFragment extends Fragment {
     private Quote mQuote;
 
     private ImageView mQuoteCandidateImage;
+    private TextView mQuoteCandidate;
     private TextView mQuoteText;
     private TextView mQuoteSource;
     private TextView mQuoteDate;
@@ -71,6 +72,9 @@ public class QuoteFragment extends Fragment {
             default:
                 break;
         }
+
+        mQuoteCandidate = (TextView) view.findViewById(R.id.fragment_quote_candidate);
+        mQuoteCandidate.setText(mQuote.getCandidate());
 
         mQuoteText = (TextView) view.findViewById(R.id.fragment_quote_card_text);
         mQuoteText.setText(mQuote.getQuote());

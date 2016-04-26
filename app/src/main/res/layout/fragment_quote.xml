@@ -20,6 +20,25 @@
             android:src="@drawable/img_sanders"/>
 
         <TextView
+            android:id="@+id/fragment_quote_candidate"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignTop="@id/fragment_quote_card_image"
+            android:layout_alignBottom="@id/fragment_quote_card_image"
+            android:layout_alignLeft="@id/fragment_quote_card_image"
+            android:layout_alignRight="@id/fragment_quote_card_image"
+            android:layout_margin="1dp"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:gravity="center"
+            android:text="CANDIDATE"
+            android:textColor="@color/colorAccent"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="10.0"/>
+
+        <TextView
             android:id="@+id/fragment_quote_card_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
