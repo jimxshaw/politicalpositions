@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_item_democrat"
+        android:title="Democrat">
+
+        <menu>
+            <item
+                android:id="@+id/item_clinton"
+                android:checkable="true"
+                android:icon="@drawable/ic_candidate_clinton"
+                android:title="Hillary Clinton"/>
+
+            <item
+                android:id="@+id/item_sanders"
+                android:checkable="true"
+                android:icon="@drawable/ic_candidate_sanders"
+                android:title="Bernie Sanders"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/naivation_item_republican"
+        android:title="Republican">
+
+        <menu>
+            <item
+                android:id="@+id/item_trump"
+                android:checkable="true"
+                android:icon="@drawable/ic_candidate_trump"
+                android:title="Donald Trump"/>
+
+            <item
+                android:id="@+id/item_cruz"
+                android:checkable="true"
+                android:icon="@drawable/ic_candidate_cruz"
+                android:title="Ted Cruz"/>
+        </menu>
+
+    </item>
+
+</menu>

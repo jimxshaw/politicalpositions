@@ -11,11 +11,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
-import java.util.zip.Inflater;
 
 // IssueListActivity will host this IssueListFragment that contains a RecyclerView with its two usual
 // utility classes, a ViewHolder and an Adapter. This Fragment's purpose to show our list of issues
@@ -59,7 +58,7 @@ public class IssueListFragment extends Fragment {
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.fragment_issue_list, menu);
+        inflater.inflate(R.menu.menu_fragment_issue_list, menu);
 
         MenuItem aboutScreenItem = menu.findItem(R.id.menu_item_about_screen);
     }
@@ -80,17 +79,66 @@ public class IssueListFragment extends Fragment {
                                 implements View.OnClickListener {
         private Issue mIssue;
         private TextView mTitleTextView;
+        private ImageView mIconImageView;
 
         public IssueHolder(View itemView) {
             super(itemView);
             itemView.setOnClickListener(this);
 
             mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_issue_title_text_view);
+            mIconImageView = (ImageView) itemView.findViewById(R.id.list_item_issue_icon_image_view);
         }
 
         public void bindIssue(Issue issue) {
             mIssue = issue;
             mTitleTextView.setText(issue.getTitle());
+
+            switch (issue.getTitle()) {
+                case "Energy":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_energy);
+                    break;
+                case "Veterans":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_veterans);
+                    break;
+                case "Taxes":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_taxes);
+                    break;
+                case "Defense":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_defense);
+                    break;
+                case "Health care":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_health_care);
+                    break;
+                case "Budget and spending":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_budget_spending);
+                    break;
+                case "Foreign policy":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_foreign_policy);
+                    break;
+                case "Civil liberties":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_civil_liberties);
+                    break;
+                case "Education":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_education);
+                    break;
+                case "Crime and safety":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_crime_safety);
+                    break;
+                case "Environment":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_environment);
+                    break;
+                case "Immigration":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_immigration);
+                    break;
+                case "Economy":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_economy);
+                    break;
+                case "Abortion":
+                    mIconImageView.setImageResource(R.drawable.ic_issues_abortion);
+                    break;
+                default:
+                    break;
+            }
         }
 
         // When a particular issue is clicked from our list of issues, an intent is fired to start

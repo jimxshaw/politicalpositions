@@ -2,22 +2,25 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:padding="@dimen/md_keylines">
 
     <ImageView
         android:id="@+id/list_item_issue_icon_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/list_issue_icon_size"
+        android:layout_height="@dimen/list_issue_icon_size"
         android:contentDescription="icon"
-        android:src="@drawable/foreign_policy"/>
+        android:src="@drawable/ic_issues_foreign_policy"/>
 
     <TextView
         android:id="@+id/list_item_issue_title_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_issue_margin_left"
+        android:layout_marginTop="@dimen/list_issue_margin_top"
         android:layout_toRightOf="@id/list_item_issue_icon_image_view"
-        android:textStyle="bold"
-        android:padding="20dp"
-        android:text="Issue Title" />
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:text="Issue Title"
+        android:textSize="@dimen/list_issue_text_size"/>
 
 </RelativeLayout>

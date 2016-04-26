@@ -3,4 +3,12 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="md_keylines">16dp</dimen>
+    <dimen name="list_issue_margin_left">16dp</dimen>
+    <dimen name="list_issue_margin_top">6dp</dimen>
+    <dimen name="list_issue_text_size">16sp</dimen>
+    <dimen name="list_issue_icon_size">30dp</dimen>
+    <dimen name="fragment_quote_card_view_height">304dp</dimen>
+    <dimen name="fragment_quote_card_image_height">200dp</dimen>
+    <dimen name="fragment_quote_card_text">16sp</dimen>
 </resources>

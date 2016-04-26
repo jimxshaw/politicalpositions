@@ -4,9 +4,13 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
@@ -19,9 +23,8 @@ public class QuoteFragment extends Fragment {
     private Issue mIssue;
     private Quote mQuote;
 
-    private TextView mQuoteTitle;
-    private TextView mQuoteCandidate;
-    private TextView mQuoteBody;
+    private ImageView mQuoteCandidateImage;
+    private TextView mQuoteText;
     private TextView mQuoteSource;
     private TextView mQuoteDate;
 
@@ -42,6 +45,7 @@ public class QuoteFragment extends Fragment {
         int quoteId = getArguments().getInt(ARG_QUOTE_ID, 0);
         mIssue = IssueLab.get(getActivity()).getIssue(issueId);
         mQuote = mIssue.getQuote(quoteId);
+
     }
 
     @Override
@@ -49,32 +53,50 @@ public class QuoteFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_quote, container, false);
 
-        mQuoteTitle = (TextView) view.findViewById(R.id.issue_quote_title);
-        mQuoteTitle.setText(mIssue.getTitle());
+        mQuoteCandidateImage = (ImageView) view.findViewById(R.id.fragment_quote_card_image);
 
-        mQuoteCandidate = (TextView) view.findViewById(R.id.issue_quote_candidate);
-        mQuoteCandidate.setText(mQuote.getCandidate());
+        switch (mQuote.getCandidate()) {
+            case "Clinton":
+                mQuoteCandidateImage.setImageResource(R.drawable.img_clinton);
+                break;
+            case "Sanders":
+                mQuoteCandidateImage.setImageResource(R.drawable.img_sanders);
+                break;
+            case "Trump":
+                mQuoteCandidateImage.setImageResource(R.drawable.img_trump);
+                break;
+            case "Cruz":
+                mQuoteCandidateImage.setImageResource(R.drawable.img_cruz);
+                break;
+            default:
+                break;
+        }
 
-        mQuoteBody = (TextView) view.findViewById(R.id.issue_quote_body);
-        mQuoteBody.setText(mQuote.getQuote());
+        mQuoteText = (TextView) view.findViewById(R.id.fragment_quote_card_text);
+        mQuoteText.setText(mQuote.getQuote());
 
-        mQuoteSource = (TextView) view.findViewById(R.id.issue_quote_source);
-        mQuoteSource.setText(R.string.issue_quote_source_label);
-        mQuoteSource.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(mQuote.getSource().toString()));
-                startActivity(intent);
-            }
-        });
-
-        mQuoteDate = (TextView) view.findViewById(R.id.issue_quote_date);
-        String rawDate = mQuote.getDate().toString();
-        String date = rawDate.substring(4, 10) + "," + rawDate.substring(23);
-        mQuoteDate.setText(date);
+//
+//        mQuoteBody = (TextView) view.findViewById(R.id.issue_quote_body);
+//        mQuoteBody.setText(mQuote.getQuote());
+//
+//        mQuoteSource = (TextView) view.findViewById(R.id.issue_quote_source);
+//        mQuoteSource.setText(R.string.issue_quote_source_label);
+//        mQuoteSource.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(Intent.ACTION_VIEW);
+//                intent.setData(Uri.parse(mQuote.getSource().toString()));
+//                startActivity(intent);
+//            }
+//        });
+//
+//        mQuoteDate = (TextView) view.findViewById(R.id.issue_quote_date);
+//        String rawDate = mQuote.getDate().toString();
+//        String date = rawDate.substring(4, 10) + "," + rawDate.substring(23);
+//        mQuoteDate.setText(date);
 
 
         return view;
     }
+
 }
