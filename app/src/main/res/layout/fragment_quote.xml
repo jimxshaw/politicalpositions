@@ -58,7 +58,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_below="@id/fragment_quote_card_text"
+            android:layout_below="@id/fragment_quote_card_candidate"
+            android:layout_above="@id/fragment_quote_card_text"
             android:gravity="center">
 
             <TextView
