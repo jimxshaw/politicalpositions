@@ -8,4 +8,7 @@
     <string name="issue_quote_candidate_label">CANDIDATE</string>
     <string name="about_screen">About</string>
     <string name="about_screen_body">PoliticalPositions \u00A9 2016, Jimmy Shaw</string>
+    <string name="navigation_screen">Filter</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 </resources>

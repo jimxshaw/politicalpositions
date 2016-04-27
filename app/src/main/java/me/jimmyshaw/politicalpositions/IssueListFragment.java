@@ -6,7 +6,6 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -39,7 +38,6 @@ public class IssueListFragment extends Fragment implements
 
         setHasOptionsMenu(true);
 
-
     }
 
     @Override
@@ -69,6 +67,7 @@ public class IssueListFragment extends Fragment implements
         inflater.inflate(R.menu.menu_fragment_issue_list, menu);
 
         MenuItem aboutScreenItem = menu.findItem(R.id.menu_item_about_screen);
+        MenuItem navigationMenuItem = menu.findItem(R.id.menu_item_navigation_menu);
     }
 
     @Override
