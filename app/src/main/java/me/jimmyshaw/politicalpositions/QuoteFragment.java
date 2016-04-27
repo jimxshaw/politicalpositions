@@ -5,6 +5,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -42,6 +45,7 @@ public class QuoteFragment extends Fragment {
         mIssue = IssueLab.get(getActivity()).getIssue(issueId);
         mQuote = mIssue.getQuote(quoteId);
 
+        setHasOptionsMenu(true);
     }
 
     @Override
@@ -93,6 +97,26 @@ public class QuoteFragment extends Fragment {
 
 
         return view;
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.menu_fragment_issue_list, menu);
+
+        MenuItem aboutScreenItem = menu.findItem(R.id.menu_item_about_screen);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem menuItem) {
+        switch (menuItem.getItemId()) {
+            case R.id.menu_item_about_screen:
+                Intent intent = new Intent(getContext(), AboutScreenActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(menuItem);
+        }
     }
 
 }

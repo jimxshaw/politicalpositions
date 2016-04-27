@@ -7,10 +7,5 @@
         android:title="@string/about_screen"
         app:showAsAction="ifRoom|withText"/>
 
-    <item
-        android:id="@+id/menu_item_navigation_menu"
-        android:icon="@drawable/ic_menu_navigation"
-        android:title="@string/about_screen"
-        app:showAsAction="ifRoom|withText"/>
 
 </menu>

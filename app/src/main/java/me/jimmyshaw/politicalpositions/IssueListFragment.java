@@ -6,8 +6,11 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -36,13 +39,26 @@ public class IssueListFragment extends Fragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setHasOptionsMenu(true);
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_issue_list, container, false);
+
+        Toolbar toolbar = (Toolbar) view.findViewById(R.id.toolbar);
+
+        mDrawerLayout = (DrawerLayout) view.findViewById(R.id.drawer_layout);
+        NavigationView navigationView = (NavigationView) view.findViewById(R.id.navigation_view_menu);
+        if (navigationView != null) {
+            // The if statement is only here to mitigate potential null pointer exceptions.
+            navigationView.setNavigationItemSelectedListener(this);
+        }
+
+        ActionBarDrawerToggle drawerToggle = new ActionBarDrawerToggle(getActivity(), mDrawerLayout, toolbar,
+                R.string.drawer_open, R.string.drawer_close);
+
+        mDrawerLayout.setDrawerListener(drawerToggle);
+        drawerToggle.syncState();
 
         mIssueRecyclerView = (RecyclerView) view.findViewById(R.id.issue_recycler_view);
         mIssueRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -59,27 +75,6 @@ public class IssueListFragment extends Fragment implements
 
         mAdapter = new IssueAdapter(issues);
         mIssueRecyclerView.setAdapter(mAdapter);
-    }
-
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.menu_fragment_issue_list, menu);
-
-        MenuItem aboutScreenItem = menu.findItem(R.id.menu_item_about_screen);
-        MenuItem navigationMenuItem = menu.findItem(R.id.menu_item_navigation_menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem menuItem) {
-        switch (menuItem.getItemId()) {
-            case R.id.menu_item_about_screen:
-                Intent intent = new Intent(getContext(), AboutScreenActivity.class);
-                startActivity(intent);
-                return true;
-            default:
-                return super.onOptionsItemSelected(menuItem);
-        }
     }
 
     @Override
