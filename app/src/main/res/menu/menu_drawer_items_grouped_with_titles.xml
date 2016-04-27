@@ -22,7 +22,7 @@
     </item>
 
     <item
-        android:id="@+id/naivation_item_republican"
+        android:id="@+id/navigation_item_republican"
         android:title="Republican">
 
         <menu>
