@@ -80,15 +80,19 @@ public class IssueListFragment extends Fragment implements
         switch (menuItem.getItemId()) {
             case R.id.item_clinton:
                 // Go to list of quotes on every issue filtered for Clinton.
+                hideDrawer();
                 break;
             case R.id.item_sanders:
                 // Go to list of quotes on every issue filtered for Sanders.
+                hideDrawer();
                 break;
             case R.id.item_trump:
                 // Go to list of quotes on every issue filtered for Trump.
+                hideDrawer();
                 break;
             case R.id.item_cruz:
                 // Go to list of quotes on every issue filtered for Cruz.
+                hideDrawer();
                 break;
             default:
                 hideDrawer();
