@@ -2,7 +2,10 @@ package me.jimmyshaw.politicalpositions;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -23,9 +26,11 @@ import java.util.List;
 // controller object that sits between the RecyclerView and the data set that the RecyclerView
 // should display. Its responsibilities are creating the necessary ViewHolders and binding
 // ViewHolders to data from the model layer.
-public class IssueListFragment extends Fragment {
+public class IssueListFragment extends Fragment implements
+        NavigationView.OnNavigationItemSelectedListener {
 
     private RecyclerView mIssueRecyclerView;
+    private DrawerLayout mDrawerLayout;
     private IssueAdapter mAdapter;
 
     @Override
@@ -76,6 +81,39 @@ public class IssueListFragment extends Fragment {
             default:
                 return super.onOptionsItemSelected(menuItem);
         }
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(MenuItem menuItem) {
+
+        switch (menuItem.getItemId()) {
+            case R.id.item_clinton:
+                // Go to list of quotes on every issue filtered for Clinton.
+                break;
+            case R.id.item_sanders:
+                // Go to list of quotes on every issue filtered for Sanders.
+                break;
+            case R.id.item_trump:
+                // Go to list of quotes on every issue filtered for Trump.
+                break;
+            case R.id.item_cruz:
+                // Go to list of quotes on every issue filtered for Cruz.
+                break;
+            default:
+                hideDrawer();
+                break;
+        }
+        return true;
+    }
+
+    // Open the navigation menu drawer.
+    private void showDrawer() {
+        mDrawerLayout.openDrawer(GravityCompat.START);
+    }
+
+    // Close the navigation menu drawer.
+    private void hideDrawer() {
+        mDrawerLayout.closeDrawer(GravityCompat.START);
     }
 
     private class IssueHolder extends RecyclerView.ViewHolder
