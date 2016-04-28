@@ -102,7 +102,7 @@ public class QuoteFragment extends Fragment {
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.menu_fragment_issue_list, menu);
+        inflater.inflate(R.menu.menu_fragment_about_page, menu);
 
         MenuItem aboutScreenItem = menu.findItem(R.id.menu_item_about_screen);
     }

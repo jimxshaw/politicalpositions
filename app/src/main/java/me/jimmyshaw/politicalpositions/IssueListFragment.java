@@ -11,6 +11,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,12 +32,14 @@ public class IssueListFragment extends Fragment implements
 
     private RecyclerView mIssueRecyclerView;
     private DrawerLayout mDrawerLayout;
+    private boolean mDrawerLayoutOpen;
     private IssueAdapter mAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        setHasOptionsMenu(true);
     }
 
     @Override
@@ -77,6 +81,30 @@ public class IssueListFragment extends Fragment implements
     }
 
     @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.menu_fragment_candidate_filter, menu);
+
+        MenuItem candidateFilterItem = menu.findItem(R.id.menu_item_candidate_filter);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem menuItem) {
+        switch (menuItem.getItemId()) {
+            case R.id.menu_item_candidate_filter:
+                if (!mDrawerLayoutOpen) {
+                    showDrawer();
+                }
+                else {
+                    hideDrawer();
+                }
+                return true;
+            default:
+                return super.onOptionsItemSelected(menuItem);
+        }
+    }
+
+    @Override
     public boolean onNavigationItemSelected(MenuItem menuItem) {
 
         switch (menuItem.getItemId()) {
@@ -105,13 +133,20 @@ public class IssueListFragment extends Fragment implements
 
     // Open the navigation menu drawer.
     private void showDrawer() {
-        mDrawerLayout.openDrawer(GravityCompat.START);
+        mDrawerLayout.openDrawer(GravityCompat.END);
+        mDrawerLayoutOpen = true;
     }
 
     // Close the navigation menu drawer.
     private void hideDrawer() {
-        mDrawerLayout.closeDrawer(GravityCompat.START);
+        mDrawerLayout.closeDrawer(GravityCompat.END);
+        mDrawerLayoutOpen = false;
     }
+
+
+
+
+
 
     private class IssueHolder extends RecyclerView.ViewHolder
                                 implements View.OnClickListener {
@@ -187,6 +222,11 @@ public class IssueListFragment extends Fragment implements
             startActivity(intent);
         }
     }
+
+
+
+
+
 
     private class IssueAdapter extends RecyclerView.Adapter<IssueHolder> {
 
