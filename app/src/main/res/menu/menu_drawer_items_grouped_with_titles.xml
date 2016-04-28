@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/navigation_item_democrat"
@@ -8,15 +10,17 @@
         <menu>
             <item
                 android:id="@+id/item_clinton"
-                android:checkable="true"
                 android:icon="@drawable/ic_candidate_clinton"
-                android:title="Hillary Clinton"/>
+                android:checkable="false"
+                android:title="Hillary Clinton"
+                app:showAsAction="always"/>
 
             <item
                 android:id="@+id/item_sanders"
-                android:checkable="true"
                 android:icon="@drawable/ic_candidate_sanders"
-                android:title="Bernie Sanders"/>
+                android:checkable="false"
+                android:title="Bernie Sanders"
+                app:showAsAction="always"/>
         </menu>
 
     </item>
@@ -28,15 +32,17 @@
         <menu>
             <item
                 android:id="@+id/item_trump"
-                android:checkable="true"
                 android:icon="@drawable/ic_candidate_trump"
-                android:title="Donald Trump"/>
+                android:checkable="false"
+                android:title="Donald Trump"
+                app:showAsAction="always"/>
 
             <item
                 android:id="@+id/item_cruz"
-                android:checkable="true"
                 android:icon="@drawable/ic_candidate_cruz"
-                android:title="Ted Cruz"/>
+                android:checkable="false"
+                android:title="Ted Cruz"
+                app:showAsAction="always"/>
         </menu>
 
     </item>

@@ -46,6 +46,8 @@ public class IssueListFragment extends Fragment implements
 
         mDrawerLayout = (DrawerLayout) view.findViewById(R.id.drawer_layout);
         NavigationView navigationView = (NavigationView) view.findViewById(R.id.navigation_view_menu);
+        // Remove the gray color tint effect from menu item icons. Otherwise the icon image will not show.
+        navigationView.setItemIconTintList(null);
         if (navigationView != null) {
             // The if statement is only here to mitigate potential null pointer exceptions.
             navigationView.setNavigationItemSelectedListener(this);
