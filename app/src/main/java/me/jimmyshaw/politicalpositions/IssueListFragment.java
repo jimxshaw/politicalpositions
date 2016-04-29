@@ -30,10 +30,14 @@ import java.util.List;
 public class IssueListFragment extends Fragment implements
         NavigationView.OnNavigationItemSelectedListener {
 
+    //TODO: add static candidate name constant.
+
     private RecyclerView mIssueRecyclerView;
     private DrawerLayout mDrawerLayout;
     private boolean mDrawerLayoutOpen;
     private IssueAdapter mAdapter;
+
+    //TODO: add static new instance fragment method.
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -71,6 +75,8 @@ public class IssueListFragment extends Fragment implements
         return view;
     }
 
+    //TODO: Refactor to accept a candidate name. Call lab's get issues filtered by candidate method.
+
     private void updateUI(){
         IssueLab issueLab = IssueLab.get(getActivity());
 
@@ -104,28 +110,34 @@ public class IssueListFragment extends Fragment implements
         }
     }
 
+    //TODO: Implement this method.
+
     @Override
     public boolean onNavigationItemSelected(MenuItem menuItem) {
 
         switch (menuItem.getItemId()) {
             case R.id.item_clinton:
                 hideDrawer();
-                // Go to view pager of quotes on every issue filtered for Clinton.
+                // Submit new intent to start up a new instance of IssueListActivity by calling its
+                // newIntent method with argument of "Clinton".
 
                 break;
             case R.id.item_sanders:
                 hideDrawer();
-                // Go to view pager of quotes on every issue filtered for Sanders.
+                // Submit new intent to start up a new instance of IssueListActivity by calling its
+                // newIntent method with argument of "Sanders".
 
                 break;
             case R.id.item_trump:
                 hideDrawer();
-                // Go to view pager of quotes on every issue filtered for Trump.
+                // Submit new intent to start up a new instance of IssueListActivity by calling its
+                // newIntent method with argument of "Trump".
 
                 break;
             case R.id.item_cruz:
                 hideDrawer();
-                // Go to view pager of quotes on every issue filtered for Cruz.
+                // Submit new intent to start up a new instance of IssueListActivity by calling its
+                // newIntent method with argument of "Cruz".
 
                 break;
             default:
@@ -219,7 +231,7 @@ public class IssueListFragment extends Fragment implements
         }
 
         // When a particular issue is clicked from our list of issues, an intent is fired to start
-        //
+        // QuotePagerActivity.
         @Override
         public void onClick(View v) {
             Intent intent = QuotePagerActivity.newIntent(getActivity(), mIssue.getId());
