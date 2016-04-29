@@ -54,10 +54,12 @@ public class IssueLab {
     }
 
     public List<Quote> getCandidateQuotes(String candidateName) {
+        // For every Issue in our issues list, search inside its array list of quotes. If the input
+        // candidate matches the name field of the particular quote, add that quote to this class's
+        // list of quotes comprised solely of the input candidate.
         for (Issue issue : mIssues) {
             mCandidateQuotes.add(issue.getQuoteByCandidate(candidateName));
         }
-
         return mCandidateQuotes;
     }
 
