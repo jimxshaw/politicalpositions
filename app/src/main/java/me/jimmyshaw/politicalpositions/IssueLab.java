@@ -19,7 +19,7 @@ public class IssueLab {
 
     private static IssueLab sIssueLab;
     private List<Issue> mIssues;
-    private List<Quote> mCandidateQuotes;
+    private List<Issue> mCandidateIssues;
 
     private IssueLab(Context context) {
         mIssues = new ArrayList<>();
@@ -44,6 +44,30 @@ public class IssueLab {
         return mIssues;
     }
 
+    public List<Issue> getIssuesByCandidate() {
+        return mCandidateIssues;
+    }
+
+    public List<Issue> getIssuesByCandidate(String candidateName) {
+        mCandidateIssues = new ArrayList<>();
+        for (Issue issue : mIssues) {
+
+            Issue issueWithFilteredQuotes = new Issue();
+
+            for (Quote quote : issue.getQuotes()) {
+
+                if (quote.getCandidate().equals(candidateName)) {
+
+                    issueWithFilteredQuotes.getQuotes().add(quote);
+                }
+            }
+
+            mCandidateIssues.add(issueWithFilteredQuotes);
+        }
+
+        return mCandidateIssues;
+    }
+
     public Issue getIssue(int id) {
         for (Issue issue : mIssues) {
             if (issue.getId() == id) {
@@ -51,16 +75,6 @@ public class IssueLab {
             }
         }
         return null;
-    }
-
-    public List<Quote> getCandidateQuotes(String candidateName) {
-        // For every Issue in our issues list, search inside its array list of quotes. If the input
-        // candidate matches the name field of the particular quote, add that quote to this class's
-        // list of quotes comprised solely of the input candidate.
-        for (Issue issue : mIssues) {
-            mCandidateQuotes.add(issue.getQuoteByCandidate(candidateName));
-        }
-        return mCandidateQuotes;
     }
 
     private String readJSONFromRes(@RawRes int id, Context context) throws JSONException {
