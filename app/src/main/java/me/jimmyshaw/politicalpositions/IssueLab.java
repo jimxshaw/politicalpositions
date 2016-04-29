@@ -19,7 +19,7 @@ public class IssueLab {
 
     private static IssueLab sIssueLab;
     private List<Issue> mIssues;
-    private List<Issue> mCandidateIssues;
+    private List<Issue> mIssuesFilteredByCandidate;
 
     private IssueLab(Context context) {
         mIssues = new ArrayList<>();
@@ -45,11 +45,11 @@ public class IssueLab {
     }
 
     public List<Issue> getIssuesByCandidate() {
-        return mCandidateIssues;
+        return mIssuesFilteredByCandidate;
     }
 
     public List<Issue> getIssuesByCandidate(String candidateName) {
-        mCandidateIssues = new ArrayList<>();
+        mIssuesFilteredByCandidate = new ArrayList<>();
         for (Issue issue : mIssues) {
 
             Issue issueWithFilteredQuotes = new Issue();
@@ -62,10 +62,10 @@ public class IssueLab {
                 }
             }
 
-            mCandidateIssues.add(issueWithFilteredQuotes);
+            mIssuesFilteredByCandidate.add(issueWithFilteredQuotes);
         }
 
-        return mCandidateIssues;
+        return mIssuesFilteredByCandidate;
     }
 
     public Issue getIssue(int id) {
