@@ -19,6 +19,7 @@ public class IssueLab {
 
     private static IssueLab sIssueLab;
     private List<Issue> mIssues;
+    private List<Quote> mCandidateQuotes;
 
     private IssueLab(Context context) {
         mIssues = new ArrayList<>();
@@ -26,10 +27,7 @@ public class IssueLab {
         try {
             parseJSONFromRes(context);
         }
-        catch (IOException ex) {
-            ex.printStackTrace();
-        }
-        catch (JSONException ex) {
+        catch (IOException | JSONException ex) {
             ex.printStackTrace();
         }
 
@@ -53,6 +51,14 @@ public class IssueLab {
             }
         }
         return null;
+    }
+
+    public List<Quote> getCandidateQuotes(String candidateName) {
+        for (Issue issue : mIssues) {
+            mCandidateQuotes.add(issue.getQuoteByCandidate(candidateName));
+        }
+
+        return mCandidateQuotes;
     }
 
     private String readJSONFromRes(@RawRes int id, Context context) throws JSONException {

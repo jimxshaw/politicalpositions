@@ -37,6 +37,15 @@ public class Issue {
         return null;
     }
 
+    public Quote getQuoteByCandidate(String candidateName) {
+        for (Quote quote : mQuotes) {
+            if (quote.getCandidate().equals(candidateName)) {
+                return quote;
+            }
+        }
+        return null;
+    }
+
     public ArrayList<Quote> getQuotes() {
         return mQuotes;
     }
