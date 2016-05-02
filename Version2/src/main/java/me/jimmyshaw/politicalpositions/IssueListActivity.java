@@ -20,7 +20,6 @@ public class IssueListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout mDrawerLayout;
-    private IssueListFragment mIssueListFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
