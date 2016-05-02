@@ -12,9 +12,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class IssueListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private DrawerLayout mDrawerLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,27 +26,19 @@ public class IssueListActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle drawerToggle = new ActionBarDrawerToggle(
+                this, mDrawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        mDrawerLayout.setDrawerListener(drawerToggle);
+        // If the syncState method is not called then the drawer toggle icon AKA "Hamburger icon"
+        // either won't synchronize with the drawer layout or the icon won't appear at all.
+        drawerToggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         // Remove the gray color tint from nav menu item icons. Otherwise, the default gray
         // color would cover the entire icon image.
         navigationView.setItemIconTintList(null);
         navigationView.setNavigationItemSelectedListener(this);
-    }
-
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
     }
 
     @Override
@@ -70,12 +65,52 @@ public class IssueListActivity extends AppCompatActivity
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
+    public boolean onNavigationItemSelected(MenuItem menuItem) {
         // Handle navigation view item clicks here.
+        switch(menuItem.getItemId()) {
+            case R.id.nav_drawer_menu_item_clinton:
+                hideDrawer();
 
+                break;
+            case R.id.nav_drawer_menu_item_sanders:
+                hideDrawer();
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
+                break;
+            case R.id.nav_drawer_menu_item_trump:
+                hideDrawer();
+
+                break;
+            case R.id.nav_drawer_menu_item_cruz:
+                hideDrawer();
+
+                break;
+            default:
+                hideDrawer();
+                break;
+        }
         return true;
+    }
+
+    // Show the navigation drawer.
+    private void showDrawer() {
+        mDrawerLayout.openDrawer(GravityCompat.START);
+    }
+
+    // Hide the navigation drawer.
+    private void hideDrawer() {
+        mDrawerLayout.closeDrawer(GravityCompat.START);
+    }
+
+    // When the user pushes the back button to close the app, if the drawer is open then hide the
+    // drawer. Otherwise, perform the usual action with the back button press which is closing
+    // the app.
+    @Override
+    public void onBackPressed() {
+        if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
+            hideDrawer();
+        }
+        else {
+            super.onBackPressed();
+        }
     }
 }
