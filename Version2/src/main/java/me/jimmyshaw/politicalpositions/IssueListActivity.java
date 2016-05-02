@@ -3,6 +3,8 @@ package me.jimmyshaw.politicalpositions;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -18,6 +20,7 @@ public class IssueListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout mDrawerLayout;
+    private IssueListFragment mIssueListFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +42,17 @@ public class IssueListActivity extends AppCompatActivity
         // color would cover the entire icon image.
         navigationView.setItemIconTintList(null);
         navigationView.setNavigationItemSelectedListener(this);
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragment = fragmentManager.findFragmentById(R.id.fragment_content_container);
+
+        if (fragment == null) {
+            fragment = new IssueListFragment();
+            fragmentManager.beginTransaction()
+                            .add(R.id.fragment_content_container, fragment)
+                            .commit();
+        }
+
     }
 
     @Override
