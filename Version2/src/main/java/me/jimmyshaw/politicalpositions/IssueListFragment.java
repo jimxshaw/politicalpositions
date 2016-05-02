@@ -57,8 +57,8 @@ public class IssueListFragment extends Fragment {
             super(itemView);
             itemView.setOnClickListener(this);
 
-            mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_issue_title_text_view);
-            mIconImageView = (ImageView) itemView.findViewById(R.id.list_item_issue_icon_image_view);
+            mTitleTextView = (TextView) itemView.findViewById(R.id.fragment_issue_list_item_title);
+            mIconImageView = (ImageView) itemView.findViewById(R.id.fragment_issue_list_item_icon);
         }
 
         public void bindIssue(Issue issue) {
