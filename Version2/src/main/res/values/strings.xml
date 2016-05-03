@@ -6,6 +6,6 @@
 
     <string name="action_settings">Settings</string>
 
-    <string name="fragment_quote_source_text">Source</string>
+    <string name="fragment_quote_source_text"><u>Source</u></string>
     <string name="fragment_quote_date_text">Source</string>
 </resources>
