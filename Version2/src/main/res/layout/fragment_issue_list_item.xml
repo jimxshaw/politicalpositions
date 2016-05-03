@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="@dimen/md_keylines">
+    android:padding="@dimen/md_keylines"
+    android:background="?attr/selectableItemBackground">
 
     <ImageView
         android:id="@+id/fragment_issue_list_item_icon"
@@ -18,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/list_issue_margin_left"
         android:layout_marginTop="@dimen/list_issue_margin_top"
+        android:layout_marginBottom="@dimen/list_issue_margin_bottom"
         android:layout_toRightOf="@id/fragment_issue_list_item_icon"
         android:textAppearance="?attr/textAppearanceListItem"
         android:text="Issue Title"

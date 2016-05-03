@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import me.jimmyshaw.politicalpositions.thirdparty.DividerItemDecoration;
+
 public class IssueListFragment extends Fragment {
 
     private RecyclerView mIssueListRecyclerView;
@@ -28,6 +30,7 @@ public class IssueListFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_issue_list, container, false);
 
         mIssueListRecyclerView = (RecyclerView) view.findViewById(R.id.fragment_issue_list_recycler_view);
+        mIssueListRecyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL_LIST));
         mIssueListRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         updateUI();

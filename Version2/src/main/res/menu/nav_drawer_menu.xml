@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/selectableItemBackground">
 
     <item
         android:id="@+id/nav_drawer_menu_democrat"
@@ -11,14 +12,14 @@
             <item
                 android:id="@+id/nav_drawer_menu_item_clinton"
                 android:icon="@drawable/ic_candidate_clinton"
-                android:checkable="true"
+                android:checkable="false"
                 android:title="Hillary Clinton"
                 app:showAsAction="always"/>
 
             <item
                 android:id="@+id/nav_drawer_menu_item_sanders"
                 android:icon="@drawable/ic_candidate_sanders"
-                android:checkable="true"
+                android:checkable="false"
                 android:title="Bernie Sanders"
                 app:showAsAction="always"/>
         </menu>
@@ -33,14 +34,14 @@
             <item
                 android:id="@+id/nav_drawer_menu_item_trump"
                 android:icon="@drawable/ic_candidate_trump"
-                android:checkable="true"
+                android:checkable="false"
                 android:title="Donald Trump"
                 app:showAsAction="always"/>
 
             <item
                 android:id="@+id/nav_drawer_menu_item_cruz"
                 android:icon="@drawable/ic_candidate_cruz"
-                android:checkable="true"
+                android:checkable="false"
                 android:title="Ted Cruz"
                 app:showAsAction="always"/>
         </menu>
@@ -49,7 +50,7 @@
 
     <item
         android:id="@+id/nav_drawer_menu_item_no_filter"
-        android:checkable="true"
+        android:checkable="false"
         android:title="No filter"
         app:showAsAction="always"/>
 
