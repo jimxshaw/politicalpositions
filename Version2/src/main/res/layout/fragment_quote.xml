@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:id="@+id/fragment_quote_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_quote_image_height"
+        android:layout_margin="@dimen/md_keylines"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_sanders"/>
+
+    <TextView
+        android:id="@+id/fragment_quote_candidate_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/fragment_quote_image"
+        android:layout_alignBottom="@id/fragment_quote_image"
+        android:layout_alignLeft="@id/fragment_quote_image"
+        android:layout_alignRight="@id/fragment_quote_image"
+        android:layout_margin="1dp"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:text="CANDIDATE"
+        android:textColor="@color/colorAccent"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="7.5" />
+
+    <TextView
+        android:id="@+id/fragment_quote_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_quote_image"
+        android:layout_margin="@dimen/md_keylines"
+        android:text="THIS IS THE QUOTE!!!!"
+        android:ellipsize="end"
+        android:singleLine="false"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/fragment_quote_text"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_quote_candidate_name"
+        android:layout_above="@id/fragment_quote_text"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/fragment_quote_source"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="@dimen/md_keylines"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentLeft="true"
+            android:text="@string/fragment_quote_source_text"/>
+
+        <TextView
+            android:id="@+id/fragment_quote_date"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="@dimen/md_keylines"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentRight="true"
+            android:text="@string/fragment_quote_date_text"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
