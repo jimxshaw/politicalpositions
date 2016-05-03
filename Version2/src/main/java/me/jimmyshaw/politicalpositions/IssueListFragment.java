@@ -118,7 +118,7 @@ public class IssueListFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
-
+            
         }
     }
 
