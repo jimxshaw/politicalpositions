@@ -1,13 +1,8 @@
 package me.jimmyshaw.politicalpositions;
 
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -16,22 +11,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 public class IssueListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private static final String EXTRA_CANDIDATE_NAME = "candidate_name";
-
-    private String mCandidateName;
-
     private DrawerLayout mDrawerLayout;
 
-    public static Intent newIntent(Context packageContext, String candidateName) {
-        Intent intent = new Intent(packageContext, IssueListActivity.class);
-        intent.putExtra(EXTRA_CANDIDATE_NAME, candidateName);
-        return intent;
-    }
+    private Fragment mFragment;
+    private FragmentManager mFragmentManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,22 +41,13 @@ public class IssueListActivity extends AppCompatActivity
         navigationView.setItemIconTintList(null);
         navigationView.setNavigationItemSelectedListener(this);
 
-        mCandidateName = getIntent().getStringExtra(EXTRA_CANDIDATE_NAME);
+        mFragmentManager = getSupportFragmentManager();
+        mFragment = mFragmentManager.findFragmentById(R.id.fragment_content_container);
 
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        Fragment fragment = fragmentManager.findFragmentById(R.id.fragment_content_container);
-
-        if (fragment == null) {
-
-            if (mCandidateName == null) {
-                // On initial app startup, the member variable mCandidateName will be null.
-                // When this case arises, use the string for candidate filter none as the default.
-                mCandidateName = getResources().getString(R.string.candidate_filter_none);
-            }
-
-            fragment = IssueListFragment.newInstance(mCandidateName);
-            fragmentManager.beginTransaction()
-                            .add(R.id.fragment_content_container, fragment)
+        if (mFragment == null) {
+            mFragment = IssueListFragment.newInstance(getResources().getString(R.string.candidate_filter_none));
+            mFragmentManager.beginTransaction()
+                            .add(R.id.fragment_content_container, mFragment)
                             .commit();
         }
 
@@ -120,6 +98,7 @@ public class IssueListActivity extends AppCompatActivity
                 break;
             default:
                 hideDrawer();
+
                 break;
         }
         return true;
