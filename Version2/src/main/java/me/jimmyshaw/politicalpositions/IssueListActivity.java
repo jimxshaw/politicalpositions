@@ -1,5 +1,7 @@
 package me.jimmyshaw.politicalpositions;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -19,7 +21,17 @@ import android.widget.TextView;
 public class IssueListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private static final String EXTRA_CANDIDATE_NAME = "candidate_name";
+
+    private String mCandidateName;
+
     private DrawerLayout mDrawerLayout;
+
+    public static Intent newIntent(Context packageContext, String candidateName) {
+        Intent intent = new Intent(packageContext, IssueListActivity.class);
+        intent.putExtra(EXTRA_CANDIDATE_NAME, candidateName);
+        return intent;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,12 +54,20 @@ public class IssueListActivity extends AppCompatActivity
         navigationView.setItemIconTintList(null);
         navigationView.setNavigationItemSelectedListener(this);
 
+        mCandidateName = getIntent().getStringExtra(EXTRA_CANDIDATE_NAME);
+
         FragmentManager fragmentManager = getSupportFragmentManager();
         Fragment fragment = fragmentManager.findFragmentById(R.id.fragment_content_container);
 
         if (fragment == null) {
-            String candidateFilterNone = getResources().getString(R.string.candidate_filter_none);
-            fragment = IssueListFragment.newInstance(candidateFilterNone);
+
+            if (mCandidateName == null) {
+                // On initial app startup, the member variable mCandidateName will be null.
+                // When this case arises, use the string for candidate filter none as the default.
+                mCandidateName = getResources().getString(R.string.candidate_filter_none);
+            }
+
+            fragment = IssueListFragment.newInstance(mCandidateName);
             fragmentManager.beginTransaction()
                             .add(R.id.fragment_content_container, fragment)
                             .commit();
