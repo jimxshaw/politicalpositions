@@ -45,12 +45,16 @@ public class IssueListActivity extends AppCompatActivity
         mFragment = mFragmentManager.findFragmentById(R.id.fragment_content_container);
 
         if (mFragment == null) {
-            mFragment = IssueListFragment.newInstance(getResources().getString(R.string.candidate_filter_none));
-            mFragmentManager.beginTransaction()
-                            .add(R.id.fragment_content_container, mFragment)
-                            .commit();
+            filterIssuesList(getResources().getString(R.string.candidate_filter_none));
         }
 
+    }
+
+    private void filterIssuesList(String candidateName) {
+        mFragment = IssueListFragment.newInstance(candidateName);
+        mFragmentManager.beginTransaction()
+                .add(R.id.fragment_content_container, mFragment)
+                .commit();
     }
 
     @Override
@@ -82,23 +86,23 @@ public class IssueListActivity extends AppCompatActivity
         switch(menuItem.getItemId()) {
             case R.id.nav_drawer_menu_item_clinton:
                 hideDrawer();
-
+                filterIssuesList(getResources().getString(R.string.candidate_clinton));
                 break;
             case R.id.nav_drawer_menu_item_sanders:
                 hideDrawer();
-
+                filterIssuesList(getResources().getString(R.string.candidate_sanders));
                 break;
             case R.id.nav_drawer_menu_item_trump:
                 hideDrawer();
-
+                filterIssuesList(getResources().getString(R.string.candidate_trump));
                 break;
             case R.id.nav_drawer_menu_item_cruz:
                 hideDrawer();
-
+                filterIssuesList(getResources().getString(R.string.candidate_cruz));
                 break;
             default:
                 hideDrawer();
-
+                filterIssuesList(getResources().getString(R.string.candidate_filter_none));
                 break;
         }
         return true;
