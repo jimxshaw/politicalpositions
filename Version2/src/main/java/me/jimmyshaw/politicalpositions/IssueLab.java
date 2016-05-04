@@ -18,13 +18,20 @@ public class IssueLab {
 
     private static IssueLab sIssueLab;
     private List<Issue> mIssues;
-    private List<Issue> mIssuesFilteredByCandidate;
+    private List<Issue> mIssuesByClinton;
+    private List<Issue> mIssuesBySanders;
+    private List<Issue> mIssuesByTrump;
+    private List<Issue> mIssuesByCruz;
 
     private IssueLab(Context context) {
         mIssues = new ArrayList<>();
 
         try {
             parseJSONFromRes(context);
+            mIssuesByClinton = filterIssuesByCandidate("Clinton");
+            mIssuesBySanders = filterIssuesByCandidate("Sanders");
+            mIssuesByTrump = filterIssuesByCandidate("Trump");
+            mIssuesByCruz = filterIssuesByCandidate("Cruz");
         }
         catch (IOException | JSONException ex) {
             ex.printStackTrace();
@@ -43,20 +50,32 @@ public class IssueLab {
         return mIssues;
     }
 
-    public List<Issue> getIssuesByCandidate() {
-        return mIssuesFilteredByCandidate;
+    public List<Issue> getIssuesByCandidate(String candidateName) {
+        switch (candidateName) {
+            case "none":
+                return mIssues;
+            case "Clinton":
+                return mIssuesByClinton;
+            case "Sanders":
+                return mIssuesBySanders;
+            case "Trump":
+                return mIssuesByTrump;
+            case "Cruz":
+                return mIssuesByCruz;
+            default:
+                return mIssues;
+        }
     }
 
-    public List<Issue> getIssuesByCandidate(String candidateName) {
-        if (candidateName.equals("none")) {
-            return mIssues;
-        }
+    private List<Issue> filterIssuesByCandidate(String candidateName) {
 
-        mIssuesFilteredByCandidate = new ArrayList<>();
+        List<Issue> issuesFilteredByCandidate = new ArrayList<>();
 
         for (Issue issue : mIssues) {
 
             Issue issueWithFilteredQuotes = new Issue();
+            issueWithFilteredQuotes.setId(issue.getId());
+            issueWithFilteredQuotes.setTitle(issue.getTitle());
 
             for (Quote quote : issue.getQuotes()) {
 
@@ -65,9 +84,9 @@ public class IssueLab {
                     issueWithFilteredQuotes.getQuotes().add(quote);
                 }
             }
-            mIssuesFilteredByCandidate.add(issueWithFilteredQuotes);
+            issuesFilteredByCandidate.add(issueWithFilteredQuotes);
         }
-        return mIssuesFilteredByCandidate;
+        return issuesFilteredByCandidate;
     }
 
     public Issue getIssue(int id) {

@@ -45,15 +45,25 @@ public class IssueListActivity extends AppCompatActivity
         mFragment = mFragmentManager.findFragmentById(R.id.fragment_content_container);
 
         if (mFragment == null) {
-            filterIssuesList(getResources().getString(R.string.candidate_filter_none));
+            mFragment = IssueListFragment.newInstance(getResources().getString(R.string.candidate_filter_none));
+            mFragmentManager.beginTransaction()
+                    .add(R.id.fragment_content_container, mFragment)
+                    .commit();
         }
 
     }
 
     private void filterIssuesList(String candidateName) {
-        mFragment = IssueListFragment.newInstance(candidateName);
+        Fragment newFragment = IssueListFragment.newInstance(candidateName);
+
+        int top = mFragmentManager.getFragments().size()-1;
+        while (top > 0 && mFragmentManager.getFragments().get(top) == null) {
+            top--;
+        }
+
         mFragmentManager.beginTransaction()
-                .add(R.id.fragment_content_container, mFragment)
+                .remove(mFragmentManager.getFragments().get(top))
+                .add(R.id.fragment_content_container, newFragment)
                 .commit();
     }
 
