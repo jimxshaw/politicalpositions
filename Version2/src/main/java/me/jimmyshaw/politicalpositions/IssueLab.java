@@ -89,13 +89,44 @@ public class IssueLab {
         return issuesFilteredByCandidate;
     }
 
-    public Issue getIssue(int id) {
-        for (Issue issue : mIssues) {
-            if (issue.getId() == id) {
-                return issue;
-            }
+    public Issue getIssue(String candidateName, int id) {
+        switch (candidateName) {
+            case "Clinton":
+                for (Issue issue : mIssuesByClinton) {
+                    if (issue.getId() == id) {
+                        return issue;
+                    }
+                }
+                return null;
+            case "Sanders":
+                for (Issue issue : mIssuesBySanders) {
+                    if (issue.getId() == id) {
+                        return issue;
+                    }
+                }
+                return null;
+            case "Trump":
+                for (Issue issue : mIssuesByTrump) {
+                    if (issue.getId() == id) {
+                        return issue;
+                    }
+                }
+                return null;
+            case "Cruz":
+                for (Issue issue : mIssuesByCruz) {
+                    if (issue.getId() == id) {
+                        return issue;
+                    }
+                }
+                return null;
+            default:
+                for (Issue issue : mIssues) {
+                    if (issue.getId() == id) {
+                        return issue;
+                    }
+                }
+                return null;
         }
-        return null;
     }
 
     private String readJSONFromRes(@RawRes int id, Context context) throws JSONException {

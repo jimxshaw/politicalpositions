@@ -40,7 +40,7 @@ public class QuoteFragment extends Fragment {
 
         int issueId = getArguments().getInt(ARG_ISSUE_ID, 0);
         int quoteId = getArguments().getInt(ARG_QUOTE_ID, 0);
-        mIssue = IssueLab.get(getActivity()).getIssue(issueId);
+        mIssue = IssueLab.get(getActivity()).getIssue("Trump", issueId);
         mQuote = mIssue.getQuote(quoteId);
     }
 

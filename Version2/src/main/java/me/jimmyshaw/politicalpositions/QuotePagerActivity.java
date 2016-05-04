@@ -35,7 +35,7 @@ public class QuotePagerActivity extends AppCompatActivity {
 
         mViewPager = (ViewPager) findViewById(R.id.activity_quote_view_pager);
 
-        Issue mIssue = IssueLab.get(this).getIssue(issueId);
+        Issue mIssue = IssueLab.get(this).getIssue("Trump", issueId);
 
         mQuotes = mIssue.getQuotes();
 
