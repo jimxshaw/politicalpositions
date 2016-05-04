@@ -15,13 +15,18 @@ import java.util.List;
 
 public class QuotePagerActivity extends AppCompatActivity {
 
+    private static final String EXTRA_CANDIDATE_NAME = "candidate_name";
     private static final String EXTRA_ISSUE_ID = "issue_id";
+
+    private String mCandidateName;
     private int issueId;
+
     private ViewPager mViewPager;
     private List<Quote> mQuotes;
 
-    public static Intent newIntent(Context packageContext, int issueId) {
+    public static Intent newIntent(Context packageContext, String candidateName, int issueId) {
         Intent intent = new Intent(packageContext, QuotePagerActivity.class);
+        intent.putExtra(EXTRA_CANDIDATE_NAME, candidateName);
         intent.putExtra(EXTRA_ISSUE_ID, issueId);
         return intent;
     }
@@ -31,11 +36,12 @@ public class QuotePagerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quote_view_pager);
 
+        mCandidateName = getIntent().getStringExtra(EXTRA_CANDIDATE_NAME);
         issueId = getIntent().getIntExtra(EXTRA_ISSUE_ID, 0);
 
         mViewPager = (ViewPager) findViewById(R.id.activity_quote_view_pager);
 
-        Issue mIssue = IssueLab.get(this).getIssue("Trump", issueId);
+        Issue mIssue = IssueLab.get(this).getIssue(mCandidateName, issueId);
 
         mQuotes = mIssue.getQuotes();
 
@@ -49,7 +55,7 @@ public class QuotePagerActivity extends AppCompatActivity {
             @Override
             public Fragment getItem(int position) {
                 Quote quote = mQuotes.get(position);
-                return QuoteFragment.newInstance(issueId, quote.getId());
+                return QuoteFragment.newInstance(mCandidateName, issueId, quote.getId());
             }
 
             @Override

@@ -57,11 +57,12 @@ public class IssueListActivity extends AppCompatActivity
         mFragment = mFragmentManager.findFragmentById(R.id.fragment_content_container);
 
         if (mFragment == null) {
-            if (mCandidateName == null) {
-                mCandidateName = getResources().getString(R.string.candidate_filter_none);
+
+            if (getIntent().getStringExtra(EXTRA_CANDIDATE_NAME) != null) {
+                mCandidateName = getIntent().getStringExtra(EXTRA_CANDIDATE_NAME);
             }
             else {
-                mCandidateName = getIntent().getStringExtra(EXTRA_CANDIDATE_NAME);
+                mCandidateName = "none";
             }
 
             mFragment = IssueListFragment.newInstance(mCandidateName);

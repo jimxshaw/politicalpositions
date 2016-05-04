@@ -13,9 +13,11 @@ import android.widget.TextView;
 
 public class QuoteFragment extends Fragment {
 
+    private static final String ARG_CANDIDATE_NAME = "candidate_name";
     private static final String ARG_ISSUE_ID = "issue_id";
     private static final String ARG_QUOTE_ID = "quote_id";
 
+    private String mCandidateName;
     private Issue mIssue;
     private Quote mQuote;
 
@@ -25,8 +27,9 @@ public class QuoteFragment extends Fragment {
     private TextView mQuoteSource;
     private TextView mQuoteDate;
 
-    public static Fragment newInstance(int issueId, int quoteId) {
+    public static Fragment newInstance(String candidateName, int issueId, int quoteId) {
         Bundle args = new Bundle();
+        args.putString(ARG_CANDIDATE_NAME, candidateName);
         args.putInt(ARG_ISSUE_ID, issueId);
         args.putInt(ARG_QUOTE_ID, quoteId);
         QuoteFragment quoteFragment = new QuoteFragment();
@@ -38,9 +41,10 @@ public class QuoteFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        mCandidateName = getArguments().getString(ARG_CANDIDATE_NAME);
         int issueId = getArguments().getInt(ARG_ISSUE_ID, 0);
         int quoteId = getArguments().getInt(ARG_QUOTE_ID, 0);
-        mIssue = IssueLab.get(getActivity()).getIssue("Trump", issueId);
+        mIssue = IssueLab.get(getActivity()).getIssue(mCandidateName, issueId);
         mQuote = mIssue.getQuote(quoteId);
     }
 

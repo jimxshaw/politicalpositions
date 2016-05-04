@@ -132,7 +132,7 @@ public class IssueListFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
-            Intent intent = QuotePagerActivity.newIntent(getActivity(), mIssue.getId());
+            Intent intent = QuotePagerActivity.newIntent(getActivity(), mCandidateName, mIssue.getId());
             startActivity(intent);
         }
     }
