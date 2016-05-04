@@ -8,4 +8,10 @@
 
     <string name="fragment_quote_source_text"><u>Source</u></string>
     <string name="fragment_quote_date_text">Source</string>
+
+    <string name="candidate_filter_none">none</string>
+    <string name="candidate_1">Clinton</string>
+    <string name="candidate_2">Sanders</string>
+    <string name="candidate_3">Trump</string>
+    <string name="candidate_4">Cruz</string>
 </resources>

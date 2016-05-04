@@ -46,7 +46,8 @@ public class IssueListActivity extends AppCompatActivity
         Fragment fragment = fragmentManager.findFragmentById(R.id.fragment_content_container);
 
         if (fragment == null) {
-            fragment = IssueListFragment.newInstance("none");
+            String candidateFilterNone = getResources().getString(R.string.candidate_filter_none);
+            fragment = IssueListFragment.newInstance(candidateFilterNone);
             fragmentManager.beginTransaction()
                             .add(R.id.fragment_content_container, fragment)
                             .commit();
