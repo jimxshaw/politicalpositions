@@ -48,6 +48,10 @@ public class IssueLab {
     }
 
     public List<Issue> getIssuesByCandidate(String candidateName) {
+        if (candidateName.equals("none")) {
+            return mIssues;
+        }
+
         mIssuesFilteredByCandidate = new ArrayList<>();
 
         for (Issue issue : mIssues) {

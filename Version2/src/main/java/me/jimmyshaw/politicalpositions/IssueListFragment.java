@@ -17,13 +17,28 @@ import me.jimmyshaw.politicalpositions.thirdparty.DividerItemDecoration;
 
 public class IssueListFragment extends Fragment {
 
+    private static final String ARG_CANDIDATE_NAME = "candidate_name";
+
     private RecyclerView mIssueListRecyclerView;
     private IssueAdapter mAdapter;
+
+    private List<Issue> mIssues;
+
+    public static Fragment newInstance(String candidateName) {
+        Bundle args = new Bundle();
+        args.putString(ARG_CANDIDATE_NAME, candidateName);
+        IssueListFragment issueListFragment = new IssueListFragment();
+        issueListFragment.setArguments(args);
+
+        return issueListFragment;
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        String candidateName = getArguments().getString(ARG_CANDIDATE_NAME);
+        mIssues = IssueLab.get(getActivity()).getIssuesByCandidate(candidateName);
     }
 
     @Override
@@ -40,11 +55,11 @@ public class IssueListFragment extends Fragment {
     }
 
     private void updateUI() {
-        IssueLab issueLab = IssueLab.get(getActivity());
+        //IssueLab issueLab = IssueLab.get(getActivity());
 
-        List<Issue> issueList = issueLab.getIssues();
+        //List<Issue> issueList = issueLab.getIssues();
 
-        mAdapter = new IssueAdapter(issueList);
+        mAdapter = new IssueAdapter(mIssues);
         mIssueListRecyclerView.setAdapter(mAdapter);
     }
 
