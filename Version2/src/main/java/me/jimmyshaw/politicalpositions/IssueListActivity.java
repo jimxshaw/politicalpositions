@@ -1,5 +1,7 @@
 package me.jimmyshaw.politicalpositions;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -15,10 +17,20 @@ import android.view.MenuItem;
 public class IssueListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private static final String EXTRA_CANDIDATE_NAME = "candidate_name";
+
     private DrawerLayout mDrawerLayout;
+
+    private String mCandidateName;
 
     private Fragment mFragment;
     private FragmentManager mFragmentManager;
+
+    public static Intent newIntent(Context packageContext, String candidateName) {
+        Intent intent = new Intent(packageContext, IssueListActivity.class);
+        intent.putExtra(EXTRA_CANDIDATE_NAME, candidateName);
+        return intent;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,26 +57,19 @@ public class IssueListActivity extends AppCompatActivity
         mFragment = mFragmentManager.findFragmentById(R.id.fragment_content_container);
 
         if (mFragment == null) {
-            mFragment = IssueListFragment.newInstance(getResources().getString(R.string.candidate_filter_none));
+            if (mCandidateName == null) {
+                mCandidateName = getResources().getString(R.string.candidate_filter_none);
+            }
+            else {
+                mCandidateName = getIntent().getStringExtra(EXTRA_CANDIDATE_NAME);
+            }
+
+            mFragment = IssueListFragment.newInstance(mCandidateName);
             mFragmentManager.beginTransaction()
                     .add(R.id.fragment_content_container, mFragment)
                     .commit();
         }
 
-    }
-
-    private void filterIssuesList(String candidateName) {
-        Fragment newFragment = IssueListFragment.newInstance(candidateName);
-
-        int top = mFragmentManager.getFragments().size()-1;
-        while (top > 0 && mFragmentManager.getFragments().get(top) == null) {
-            top--;
-        }
-
-        mFragmentManager.beginTransaction()
-                .remove(mFragmentManager.getFragments().get(top))
-                .add(R.id.fragment_content_container, newFragment)
-                .commit();
     }
 
     @Override
@@ -96,23 +101,28 @@ public class IssueListActivity extends AppCompatActivity
         switch(menuItem.getItemId()) {
             case R.id.nav_drawer_menu_item_clinton:
                 hideDrawer();
-                filterIssuesList(getResources().getString(R.string.candidate_clinton));
+                startActivity(IssueListActivity.newIntent(this, "Clinton"));
+                finish();
                 break;
             case R.id.nav_drawer_menu_item_sanders:
                 hideDrawer();
-                filterIssuesList(getResources().getString(R.string.candidate_sanders));
+                startActivity(IssueListActivity.newIntent(this, "Sanders"));
+                finish();
                 break;
             case R.id.nav_drawer_menu_item_trump:
                 hideDrawer();
-                filterIssuesList(getResources().getString(R.string.candidate_trump));
+                startActivity(IssueListActivity.newIntent(this, "Trump"));
+                finish();
                 break;
             case R.id.nav_drawer_menu_item_cruz:
                 hideDrawer();
-                filterIssuesList(getResources().getString(R.string.candidate_cruz));
+                startActivity(IssueListActivity.newIntent(this, "Cruz"));
+                finish();
                 break;
             default:
                 hideDrawer();
-                filterIssuesList(getResources().getString(R.string.candidate_filter_none));
+                startActivity(IssueListActivity.newIntent(this, "none"));
+                finish();
                 break;
         }
         return true;
