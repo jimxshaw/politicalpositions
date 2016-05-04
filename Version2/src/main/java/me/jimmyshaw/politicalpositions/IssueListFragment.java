@@ -1,5 +1,6 @@
 package me.jimmyshaw.politicalpositions;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
@@ -118,7 +119,8 @@ public class IssueListFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
-            
+            Intent intent = QuotePagerActivity.newIntent(getActivity(), mIssue.getId());
+            startActivity(intent);
         }
     }
 
