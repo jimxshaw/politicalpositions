@@ -102,48 +102,32 @@ public class IssueListActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         switch(menuItem.getItemId()) {
             case R.id.nav_drawer_menu_item_clinton:
-                hideDrawer();
-                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_clinton));
-                mFragmentManager.beginTransaction()
-                                .hide(mFragmentOriginal)
-                                .add(R.id.fragment_content_container, mFragmentNew)
-                                .commit();
-                finish();
+                filterIssueListByCandidate(getResources().getString(R.string.candidate_clinton));
                 break;
             case R.id.nav_drawer_menu_item_sanders:
-                hideDrawer();
-                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_sanders));
-                mFragmentManager.beginTransaction()
-                                .hide(mFragmentOriginal)
-                                .add(R.id.fragment_content_container, mFragmentNew)
-                                .commit();
+                filterIssueListByCandidate(getResources().getString(R.string.candidate_sanders));
                 break;
             case R.id.nav_drawer_menu_item_trump:
-                hideDrawer();
-                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_trump));
-                mFragmentManager.beginTransaction()
-                                .hide(mFragmentOriginal)
-                                .add(R.id.fragment_content_container, mFragmentNew)
-                                .commit();
+                filterIssueListByCandidate(getResources().getString(R.string.candidate_trump));
                 break;
             case R.id.nav_drawer_menu_item_cruz:
-                hideDrawer();
-                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_cruz));
-                mFragmentManager.beginTransaction()
-                                .hide(mFragmentOriginal)
-                                .add(R.id.fragment_content_container, mFragmentNew)
-                                .commit();
+                filterIssueListByCandidate(getResources().getString(R.string.candidate_cruz));
                 break;
             default:
-                hideDrawer();
-                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_filter_none));
-                mFragmentManager.beginTransaction()
-                                .hide(mFragmentOriginal)
-                                .add(R.id.fragment_content_container, mFragmentNew)
-                                .commit();
+                filterIssueListByCandidate(getResources().getString(R.string.candidate_filter_none));
                 break;
         }
         return true;
+    }
+
+    // Filter issue list by candidate.
+    private void filterIssueListByCandidate(String candidateName) {
+        hideDrawer();
+        mFragmentNew = IssueListFragment.newInstance(candidateName);
+        mFragmentManager.beginTransaction()
+                .hide(mFragmentOriginal)
+                .add(R.id.fragment_content_container, mFragmentNew)
+                .commit();
     }
 
     // Show the navigation drawer.
