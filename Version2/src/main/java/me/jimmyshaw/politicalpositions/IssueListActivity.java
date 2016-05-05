@@ -23,7 +23,8 @@ public class IssueListActivity extends AppCompatActivity
 
     private String mCandidateName;
 
-    private Fragment mFragment;
+    private Fragment mFragmentOriginal;
+    private Fragment mFragmentNew;
     private FragmentManager mFragmentManager;
 
     public static Intent newIntent(Context packageContext, String candidateName) {
@@ -54,9 +55,9 @@ public class IssueListActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         mFragmentManager = getSupportFragmentManager();
-        mFragment = mFragmentManager.findFragmentById(R.id.fragment_content_container);
+        mFragmentOriginal = mFragmentManager.findFragmentById(R.id.fragment_content_container);
 
-        if (mFragment == null) {
+        if (mFragmentOriginal == null) {
 
             if (getIntent().getStringExtra(EXTRA_CANDIDATE_NAME) != null) {
                 mCandidateName = getIntent().getStringExtra(EXTRA_CANDIDATE_NAME);
@@ -65,9 +66,9 @@ public class IssueListActivity extends AppCompatActivity
                 mCandidateName = "none";
             }
 
-            mFragment = IssueListFragment.newInstance(mCandidateName);
+            mFragmentOriginal = IssueListFragment.newInstance(mCandidateName);
             mFragmentManager.beginTransaction()
-                    .add(R.id.fragment_content_container, mFragment)
+                    .add(R.id.fragment_content_container, mFragmentOriginal)
                     .commit();
         }
 
@@ -102,28 +103,44 @@ public class IssueListActivity extends AppCompatActivity
         switch(menuItem.getItemId()) {
             case R.id.nav_drawer_menu_item_clinton:
                 hideDrawer();
-                startActivity(IssueListActivity.newIntent(this, "Clinton"));
+                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_clinton));
+                mFragmentManager.beginTransaction()
+                                .hide(mFragmentOriginal)
+                                .add(R.id.fragment_content_container, mFragmentNew)
+                                .commit();
                 finish();
                 break;
             case R.id.nav_drawer_menu_item_sanders:
                 hideDrawer();
-                startActivity(IssueListActivity.newIntent(this, "Sanders"));
-                finish();
+                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_sanders));
+                mFragmentManager.beginTransaction()
+                                .hide(mFragmentOriginal)
+                                .add(R.id.fragment_content_container, mFragmentNew)
+                                .commit();
                 break;
             case R.id.nav_drawer_menu_item_trump:
                 hideDrawer();
-                startActivity(IssueListActivity.newIntent(this, "Trump"));
-                finish();
+                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_trump));
+                mFragmentManager.beginTransaction()
+                                .hide(mFragmentOriginal)
+                                .add(R.id.fragment_content_container, mFragmentNew)
+                                .commit();
                 break;
             case R.id.nav_drawer_menu_item_cruz:
                 hideDrawer();
-                startActivity(IssueListActivity.newIntent(this, "Cruz"));
-                finish();
+                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_cruz));
+                mFragmentManager.beginTransaction()
+                                .hide(mFragmentOriginal)
+                                .add(R.id.fragment_content_container, mFragmentNew)
+                                .commit();
                 break;
             default:
                 hideDrawer();
-                startActivity(IssueListActivity.newIntent(this, "none"));
-                finish();
+                mFragmentNew = IssueListFragment.newInstance(getResources().getString(R.string.candidate_filter_none));
+                mFragmentManager.beginTransaction()
+                                .hide(mFragmentOriginal)
+                                .add(R.id.fragment_content_container, mFragmentNew)
+                                .commit();
                 break;
         }
         return true;
