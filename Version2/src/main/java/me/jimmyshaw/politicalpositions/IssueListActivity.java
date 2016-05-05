@@ -27,6 +27,8 @@ public class IssueListActivity extends AppCompatActivity
     private Fragment mFragmentNew;
     private FragmentManager mFragmentManager;
 
+    private Toolbar mToolbar;
+
     public static Intent newIntent(Context packageContext, String candidateName) {
         Intent intent = new Intent(packageContext, IssueListActivity.class);
         intent.putExtra(EXTRA_CANDIDATE_NAME, candidateName);
@@ -37,12 +39,13 @@ public class IssueListActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_issue_list);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle drawerToggle = new ActionBarDrawerToggle(
-                this, mDrawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+                this, mDrawerLayout, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         mDrawerLayout.setDrawerListener(drawerToggle);
         // If the syncState method is not called then the drawer toggle icon AKA "Hamburger icon"
         // either won't synchronize with the drawer layout or the icon won't appear at all.
@@ -120,14 +123,31 @@ public class IssueListActivity extends AppCompatActivity
         return true;
     }
 
-    // Filter issue list by candidate.
+    // Filter issue list by candidate. We instantiate a new IssueListFragment by taking in the user
+    // selected candidate name. The fragment manager hides the original fragment and then starts up
+    // the new fragment. We then designate the new fragment as the original fragment so that on
+    // subsequent filtering that it can be hidden. Otherwise, the fragments will overlap on the UI.
+    // Finally, the toolbar's title changes according to the candidate that's being filtered.
     private void filterIssueListByCandidate(String candidateName) {
         hideDrawer();
         mFragmentNew = IssueListFragment.newInstance(candidateName);
         mFragmentManager.beginTransaction()
                 .hide(mFragmentOriginal)
+                .addToBackStack("mFragmentNew")
                 .add(R.id.fragment_content_container, mFragmentNew)
                 .commit();
+        mFragmentOriginal = mFragmentNew;
+        changeToolbarText(candidateName);
+    }
+
+    // Change the tool bar's title if the user filters by a particular candidate.
+    private void changeToolbarText(String candidateName) {
+        if (!candidateName.equals("none")) {
+            mToolbar.setTitle("Issues - " + candidateName);
+        }
+        else {
+            mToolbar.setTitle(getResources().getString(R.string.app_name));
+        }
     }
 
     // Show the navigation drawer.
