@@ -35,14 +35,16 @@
         android:id="@+id/fragment_quote_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/fragment_quote_image">
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentStart="true">
 
         <TextView
             android:id="@+id/fragment_quote_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/md_keylines"
-            android:paddingBottom="40dp"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:layout_marginRight="@dimen/md_keylines"
+            android:paddingBottom="20dp"
             android:text="THIS IS THE QUOTE!!!!"
             android:ellipsize="end"
             android:singleLine="false"
@@ -54,9 +56,10 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/fragment_quote_candidate_name"
-        android:layout_above="@id/fragment_quote_scroll_view"
-        android:gravity="center">
+        android:gravity="center"
+        android:id="@+id/relativeLayout"
+        android:layout_below="@+id/fragment_quote_candidate_name"
+        android:layout_alignParentStart="true">
 
         <TextView
             android:id="@+id/fragment_quote_source"
