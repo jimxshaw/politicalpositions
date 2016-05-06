@@ -24,6 +24,12 @@
             android:theme="@style/AppTheme"
             android:parentActivityName=".IssueListActivity">
         </activity>
+        <activity
+            android:name=".AboutPageActivity"
+            android:label="About This App"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".IssueListActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -74,13 +74,10 @@ public class IssueListActivity extends AppCompatActivity
                 mCandidateName = "none";
             }
 
-            mFragmentNew = IssueListFragment.newInstance(mCandidateName);
+            mFragmentOriginal = IssueListFragment.newInstance(mCandidateName);
             mFragmentManager.beginTransaction()
-                    .add(R.id.fragment_content_container, mFragmentNew)
+                    .add(R.id.fragment_content_container, mFragmentOriginal)
                     .commit();
-        }
-        else {
-            filterIssueListByCandidate(getResources().getString(R.string.candidate_filter_none));
         }
 
     }
@@ -98,11 +95,10 @@ public class IssueListActivity extends AppCompatActivity
 
         switch (menuItem.getItemId()) {
             case R.id.action_about_page:
-
+                startActivity(new Intent(this, AboutPageActivity.class));
                 break;
             default:
-
-                break;
+                return false;
         }
 
         return true;
