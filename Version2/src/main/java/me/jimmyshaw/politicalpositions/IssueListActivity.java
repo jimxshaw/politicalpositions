@@ -148,10 +148,10 @@ public class IssueListActivity extends AppCompatActivity
     // Change the tool bar's title if the user filters by a particular candidate.
     private void changeToolbarText(String candidateName) {
         if (!candidateName.equals("none")) {
-            mToolbar.setTitle("Issues - " + candidateName);
+            mCollapsingToolbarLayout.setTitle("Issues - " + candidateName);
         }
         else {
-            mToolbar.setTitle(getResources().getString(R.string.app_name));
+            mCollapsingToolbarLayout.setTitle(getResources().getString(R.string.app_name));
         }
     }
 
