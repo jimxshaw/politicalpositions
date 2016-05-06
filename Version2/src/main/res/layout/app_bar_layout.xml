@@ -23,6 +23,7 @@
             app:contentScrim="?attr/colorPrimary">
 
             <ImageView
+                android:id="@+id/collapsing_toolbar_image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fitsSystemWindows="true"

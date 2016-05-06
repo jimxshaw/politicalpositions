@@ -74,10 +74,13 @@ public class IssueListActivity extends AppCompatActivity
                 mCandidateName = "none";
             }
 
-            mFragmentOriginal = IssueListFragment.newInstance(mCandidateName);
+            mFragmentNew = IssueListFragment.newInstance(mCandidateName);
             mFragmentManager.beginTransaction()
-                    .add(R.id.fragment_content_container, mFragmentOriginal)
+                    .add(R.id.fragment_content_container, mFragmentNew)
                     .commit();
+        }
+        else {
+            filterIssueListByCandidate(getResources().getString(R.string.candidate_filter_none));
         }
 
     }
@@ -85,7 +88,7 @@ public class IssueListActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.issue_list, menu);
+        getMenuInflater().inflate(R.menu.menu_issue_list, menu);
         return true;
     }
 
