@@ -3,6 +3,7 @@ package me.jimmyshaw.politicalpositions;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.design.widget.NavigationView;
@@ -28,6 +29,7 @@ public class IssueListActivity extends AppCompatActivity
     private FragmentManager mFragmentManager;
 
     private Toolbar mToolbar;
+    private CollapsingToolbarLayout mCollapsingToolbarLayout;
 
     public static Intent newIntent(Context packageContext, String candidateName) {
         Intent intent = new Intent(packageContext, IssueListActivity.class);
@@ -42,6 +44,9 @@ public class IssueListActivity extends AppCompatActivity
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
+
+        mCollapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        mCollapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.CollapsingToolbar);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle drawerToggle = new ActionBarDrawerToggle(
