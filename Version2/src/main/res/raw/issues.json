@@ -4,25 +4,25 @@
     "quotes": [
       {
         "candidate": "Clinton",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "DEC 12, 2015",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "JAN 30, 2016",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "MAR 11, 2011",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Cruz",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "SEP 09, 2004",
         "source": "http://www.politico.com"
       }
@@ -33,25 +33,25 @@
     "quotes": [
       {
         "candidate": "Cruz",
-        "quote": "Curabitur ornare, libero et ultricies lobortis.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "APR 04, 2013",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Etiam pharetra vestibulum nulla id hendrerit.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "NOV 25, 2012",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Quisque euismod, enim vitae porttitor tincidunt.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "JUL 04, 2008",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Mauris elementum tempus libero, id ornare libero semper eu.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "FEB 11, 2013",
         "source": "http://www.politico.com"
       }
@@ -62,25 +62,25 @@
     "quotes": [
       {
         "candidate": "Trump",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "JUN 04, 2011",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "MAY 28, 2014",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "DEC 01, 2015",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Cruz",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "AUG 21, 2010",
         "source": "http://www.politico.com"
       }
@@ -91,25 +91,25 @@
     "quotes": [
       {
         "candidate": "Cruz",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "AUG 10, 2003",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "JAN 31, 2016",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "NOV 30, 2010",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "MAR 07, 2014",
         "source": "http://www.politico.com"
       }
@@ -120,25 +120,25 @@
     "quotes": [
       {
         "candidate": "Clinton",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "MAY 10, 2003",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "FEB 31, 2016",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "SEP 30, 2010",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Cruz",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "OCT 07, 2014",
         "source": "http://www.politico.com"
       }
@@ -149,25 +149,25 @@
     "quotes": [
       {
         "candidate": "Sanders",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "DEC 12, 2015",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "JAN 30, 2016",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Cruz",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "MAR 11, 2011",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "SEP 09, 2004",
         "source": "http://www.politico.com"
       }
@@ -178,25 +178,25 @@
     "quotes": [
       {
         "candidate": "Cruz",
-        "quote": "Curabitur ornare, libero et ultricies lobortis.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "APR 04, 2013",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Etiam pharetra vestibulum nulla id hendrerit.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "NOV 25, 2012",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Quisque euismod, enim vitae porttitor tincidunt.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "JUL 04, 2008",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Mauris elementum tempus libero, id ornare libero semper eu.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "FEB 11, 2013",
         "source": "http://www.politico.com"
       }
@@ -207,25 +207,25 @@
     "quotes": [
       {
         "candidate": "Trump",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "JUN 04, 2011",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "MAY 28, 2014",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "DEC 01, 2015",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Cruz",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "AUG 21, 2010",
         "source": "http://www.politico.com"
       }
@@ -236,25 +236,25 @@
     "quotes": [
       {
         "candidate": "Cruz",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "AUG 10, 2003",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "JAN 31, 2016",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "NOV 30, 2010",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "MAR 07, 2014",
         "source": "http://www.politico.com"
       }
@@ -265,25 +265,25 @@
     "quotes": [
       {
         "candidate": "Clinton",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "MAY 10, 2003",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Cruz",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "FEB 31, 2016",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "SEP 30, 2010",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "OCT 07, 2014",
         "source": "http://www.politico.com"
       }
@@ -294,25 +294,25 @@
     "quotes": [
       {
         "candidate": "Sanders",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "DEC 12, 2015",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "JAN 30, 2016",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Cruz",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "MAR 11, 2011",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "SEP 09, 2004",
         "source": "http://www.politico.com"
       }
@@ -323,25 +323,25 @@
     "quotes": [
       {
         "candidate": "Cruz",
-        "quote": "Curabitur ornare, libero et ultricies lobortis.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "APR 04, 2013",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Etiam pharetra vestibulum nulla id hendrerit.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "NOV 25, 2012",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Quisque euismod, enim vitae porttitor tincidunt.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "JUL 04, 2008",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Mauris elementum tempus libero, id ornare libero semper eu.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "FEB 11, 2013",
         "source": "http://www.politico.com"
       }
@@ -352,25 +352,25 @@
     "quotes": [
       {
         "candidate": "Clinton",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "JUN 04, 2011",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Sanders",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "MAY 28, 2014",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "DEC 01, 2015",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Cruz",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
         "date": "AUG 21, 2010",
         "source": "http://www.politico.com"
       }
@@ -381,25 +381,25 @@
     "quotes": [
       {
         "candidate": "Sanders",
-        "quote": "Morbi at nibh ac massa volutpat bibendum eget et metus.",
+        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
         "date": "MAY 10, 2014",
         "source": "http://www.foxnews.com"
       },
       {
         "candidate": "Cruz",
-        "quote": "Cras arcu ipsum, lacinia eu justo vel, tempor laoreet sem.",
+        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
         "date": "AUG 28, 2015",
         "source": "http://www.cnn.com"
       },
       {
         "candidate": "Trump",
-        "quote": "Vivamus ac leo sem.",
+        "quote": "Sed at purus interdum, malesuada sem eu, molestie ante. Sed vel finibus massa. Etiam sit amet tellus quis felis dapibus eleifend. Maecenas in aliquet eros, laoreet pharetra augue. Sed eu eros nunc. Duis vulputate vulputate convallis. Duis et urna quis nunc molestie congue quis sed enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo lorem nec suscipit accumsan. Nulla eu accumsan ex. Vivamus massa ligula, bibendum at massa vitae, ullamcorper iaculis enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer egestas, magna eget egestas varius, ante lacus aliquet arcu, sed scelerisque nisl mi mattis est.",
         "date": "FEB 02, 2015",
         "source": "http://www.msnbc.com"
       },
       {
         "candidate": "Clinton",
-        "quote": "Class aptent taciti sociosqu ad litora torquent.",
+        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
         "date": "OCT 12, 2011",
         "source": "http://www.politico.com"
       }

@@ -13,5 +13,5 @@
     <dimen name="list_issue_text_size">16sp</dimen>
     <dimen name="list_issue_icon_size">30dp</dimen>
     <dimen name="fragment_quote_image_height">200dp</dimen>
-    <dimen name="fragment_quote_text">16sp</dimen>
+    <dimen name="fragment_quote_text">20sp</dimen>
 </resources>

@@ -31,23 +31,31 @@
         android:shadowDy="0.0"
         android:shadowRadius="7.5" />
 
-    <TextView
-        android:id="@+id/fragment_quote_text"
+    <ScrollView
+        android:id="@+id/fragment_quote_scroll_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/fragment_quote_image"
-        android:layout_margin="@dimen/md_keylines"
-        android:text="THIS IS THE QUOTE!!!!"
-        android:ellipsize="end"
-        android:singleLine="false"
-        android:textColor="@color/dark_grey"
-        android:textSize="@dimen/fragment_quote_text"/>
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_quote_image">
+
+        <TextView
+            android:id="@+id/fragment_quote_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/md_keylines"
+            android:paddingBottom="40dp"
+            android:text="THIS IS THE QUOTE!!!!"
+            android:ellipsize="end"
+            android:singleLine="false"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/fragment_quote_text"/>
+
+    </ScrollView>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/fragment_quote_candidate_name"
-        android:layout_above="@id/fragment_quote_text"
+        android:layout_above="@id/fragment_quote_scroll_view"
         android:gravity="center">
 
         <TextView
@@ -58,7 +66,8 @@
             android:textStyle="bold"
             android:textColor="@color/colorAccent"
             android:layout_alignParentLeft="true"
-            android:text="@string/fragment_quote_source_text"/>
+            android:text="@string/fragment_quote_source_text"
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/fragment_quote_date"
@@ -68,7 +77,8 @@
             android:textStyle="bold"
             android:textColor="@color/colorAccent"
             android:layout_alignParentRight="true"
-            android:text="@string/fragment_quote_date_text"/>
+            android:text="@string/fragment_quote_date_text"
+            android:textSize="20sp"/>
 
     </RelativeLayout>
 
