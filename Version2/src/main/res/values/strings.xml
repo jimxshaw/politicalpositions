@@ -13,5 +13,4 @@
     <string name="candidate_clinton">Clinton</string>
     <string name="candidate_sanders">Sanders</string>
     <string name="candidate_trump">Trump</string>
-    <string name="candidate_cruz">Cruz</string>
 </resources>

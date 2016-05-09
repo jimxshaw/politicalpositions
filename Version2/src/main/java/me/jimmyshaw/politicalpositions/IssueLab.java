@@ -21,7 +21,6 @@ public class IssueLab {
     private List<Issue> mIssuesByClinton;
     private List<Issue> mIssuesBySanders;
     private List<Issue> mIssuesByTrump;
-    private List<Issue> mIssuesByCruz;
 
     private IssueLab(Context context) {
         mIssues = new ArrayList<>();
@@ -31,7 +30,6 @@ public class IssueLab {
             mIssuesByClinton = filterIssuesByCandidate("Clinton");
             mIssuesBySanders = filterIssuesByCandidate("Sanders");
             mIssuesByTrump = filterIssuesByCandidate("Trump");
-            mIssuesByCruz = filterIssuesByCandidate("Cruz");
         }
         catch (IOException | JSONException ex) {
             ex.printStackTrace();
@@ -60,8 +58,6 @@ public class IssueLab {
                 return mIssuesBySanders;
             case "Trump":
                 return mIssuesByTrump;
-            case "Cruz":
-                return mIssuesByCruz;
             default:
                 return mIssues;
         }
@@ -107,13 +103,6 @@ public class IssueLab {
                 return null;
             case "Trump":
                 for (Issue issue : mIssuesByTrump) {
-                    if (issue.getId() == id) {
-                        return issue;
-                    }
-                }
-                return null;
-            case "Cruz":
-                for (Issue issue : mIssuesByCruz) {
                     if (issue.getId() == id) {
                         return issue;
                     }

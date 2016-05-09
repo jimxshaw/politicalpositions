@@ -98,9 +98,6 @@ public class IssueListFragment extends Fragment {
                 case "Health care":
                     mIconImageView.setImageResource(R.drawable.ic_issues_health_care);
                     break;
-                case "Budget and spending":
-                    mIconImageView.setImageResource(R.drawable.ic_issues_budget_spending);
-                    break;
                 case "Foreign policy":
                     mIconImageView.setImageResource(R.drawable.ic_issues_foreign_policy);
                     break;

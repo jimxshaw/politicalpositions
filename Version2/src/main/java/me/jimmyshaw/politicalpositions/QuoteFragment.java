@@ -64,9 +64,6 @@ public class QuoteFragment extends Fragment {
             case "Trump":
                 mQuoteCandidateImage.setImageResource(R.drawable.img_trump);
                 break;
-            case "Cruz":
-                mQuoteCandidateImage.setImageResource(R.drawable.img_cruz);
-                break;
             default:
                 break;
         }

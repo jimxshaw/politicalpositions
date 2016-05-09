@@ -118,9 +118,6 @@ public class IssueListActivity extends AppCompatActivity
             case R.id.nav_drawer_menu_item_trump:
                 filterIssueListByCandidate(getResources().getString(R.string.candidate_trump));
                 break;
-            case R.id.nav_drawer_menu_item_cruz:
-                filterIssueListByCandidate(getResources().getString(R.string.candidate_cruz));
-                break;
             default:
                 filterIssueListByCandidate(getResources().getString(R.string.candidate_filter_none));
                 break;

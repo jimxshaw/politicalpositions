@@ -37,13 +37,6 @@
                 android:checkable="false"
                 android:title="Donald Trump"
                 app:showAsAction="always"/>
-
-            <item
-                android:id="@+id/nav_drawer_menu_item_cruz"
-                android:icon="@drawable/ic_candidate_cruz"
-                android:checkable="false"
-                android:title="Ted Cruz"
-                app:showAsAction="always"/>
         </menu>
 
     </item>
