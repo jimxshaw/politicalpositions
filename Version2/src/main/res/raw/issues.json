@@ -4,9 +4,9 @@
     "quotes": [
       {
         "candidate": "Clinton",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
-        "date": "DEC 12, 2015",
-        "source": "http://www.foxnews.com"
+        "quote": "On my first day as President, I'll set two big goals. I want the U.S. to have half a billion solar panels by 2020. And I want us to generate enough renewable electricity to power every home in America in the next 10 years. With the right investments, we’ll create good-paying jobs and make America the world’s clean energy superpower.",
+        "date": "FEB 13, 2016",
+        "source": "http://lasvegassun.com/news/2016/feb/13/hillary-clinton-campaigns-with-casino-workers-gues/"
       },
       {
         "candidate": "Sanders",
@@ -51,9 +51,9 @@
       },
       {
         "candidate": "Clinton",
-        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
-        "date": "FEB 11, 2013",
-        "source": "http://www.politico.com"
+        "quote": "Honoring veterans is a solemn duty. I'll reform the VA—not privatize it. I’ll ensure our veterans get quality health care without enduring long waits, increase education and job opportunities, and end the appeals backlog—because veterans shouldn't have to fight for benefits. And I'll work to end crises many veterans face: homelessness and suicide.",
+        "date": "FEB 08, 2016",
+        "source": "http://www.nysun.com/national/veterans-issue-emerges-as-a-major-marker-twixt/89447/"
       }
     ]
   },
@@ -74,9 +74,9 @@
       },
       {
         "candidate": "Clinton",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
-        "date": "DEC 01, 2015",
-        "source": "http://www.msnbc.com"
+        "quote": "The wealthiest pay too little in taxes while the middle class needs more relief. I'm going to fix that. I’ll close corporate tax loopholes and make sure millionaires and billionaires can’t pay lower rates than middle-class families. And I’ll give tax relief to working families who are struggling with costs from college to health care.",
+        "date": "DEC 19, 2015",
+        "source": "http://www.thedailybeast.com/articles/2015/12/19/hillary-shrugs-off-another-democratic-debate.html"
       },
       {
         "candidate": "Cruz",
@@ -109,9 +109,9 @@
       },
       {
         "candidate": "Clinton",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
-        "date": "MAR 07, 2014",
-        "source": "http://www.politico.com"
+        "quote": "The most important job of the president is to keep Americans safe. That means standing up to aggressors around the world and defeating global terrorism by depriving ISIS of physical and virtual territory. I’ll dismantle the global terror networks that supply terrorists and toughen our defenses at home—against both external and homegrown threats.",
+        "date": "MAR 15, 2016",
+        "source": "http://www.mysanantonio.com/business/fool/article/Bernie-Sanders-Vs-Hillary-Clinton-Who-Is-Better-6891858.php"
       }
     ]
   },
@@ -120,9 +120,9 @@
     "quotes": [
       {
         "candidate": "Clinton",
-        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
-        "date": "MAY 10, 2003",
-        "source": "http://www.foxnews.com"
+        "quote": "I've fought for quality, affordable health care my entire career. As president, I'll defend the Affordable Care Act, build on its successes, and go even further to reduce costs. My plan will crack down on drug companies charging excessive prices, slow the growth of out-of-pocket costs, and provide a new credit to those facing high health expenses.",
+        "date": "MAR 02, 2016",
+        "source": "http://realmoney.thestreet.com/articles/03/01/2016/valeant-parries-clinton-attack-defense-drug-prices"
       },
       {
         "candidate": "Trump",
@@ -145,35 +145,6 @@
     ]
   },
   {
-    "title": "Budget and spending",
-    "quotes": [
-      {
-        "candidate": "Sanders",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
-        "date": "DEC 12, 2015",
-        "source": "http://www.foxnews.com"
-      },
-      {
-        "candidate": "Clinton",
-        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
-        "date": "JAN 30, 2016",
-        "source": "http://www.cnn.com"
-      },
-      {
-        "candidate": "Cruz",
-        "quote": "Proin dolor justo, pulvinar quis lacus in, convallis fringilla ipsum. Nulla et imperdiet nulla. Fusce ac lorem eu ante vehicula gravida ac eget elit. Donec congue fermentum justo, nec vestibulum risus sollicitudin eget. Vivamus fringilla ipsum vitae risus blandit ultrices. Praesent congue lacus rutrum, consequat elit eu, volutpat libero. Donec viverra, quam vitae accumsan vehicula, nisi tellus tincidunt est, non eleifend felis orci vehicula nunc. Sed mi massa, tincidunt ut varius quis, cursus at quam. Duis tincidunt augue id odio pretium, a sodales eros consectetur. Morbi porta et est sed cursus. Suspendisse eget laoreet tellus, non lacinia nulla. Aliquam erat volutpat.",
-        "date": "MAR 11, 2011",
-        "source": "http://www.msnbc.com"
-      },
-      {
-        "candidate": "Trump",
-        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
-        "date": "SEP 09, 2004",
-        "source": "http://www.politico.com"
-      }
-    ]
-  },
-  {
     "title": "Foreign policy",
     "quotes": [
       {
@@ -184,9 +155,9 @@
       },
       {
         "candidate": "Clinton",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
-        "date": "NOV 25, 2012",
-        "source": "http://www.cnn.com"
+        "quote": "As secretary of state, I worked to restore America’s leadership in the world. As president, defending our values and keeping us safe will be my top priority. That includes maintaining a cutting-edge military, strengthening our alliances, cultivating new partners, standing up to aggressors, defeating ISIS, and enforcing the Iran nuclear agreement.",
+        "date": "MAR 22, 2016",
+        "source": "http://www.nbcdfw.com/news/politics/Lawmakers-Respond-to-Terror-Attacks-in-Brussels-373119291.html"
       },
       {
         "candidate": "Trump",
@@ -219,9 +190,9 @@
       },
       {
         "candidate": "Clinton",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
-        "date": "DEC 01, 2015",
-        "source": "http://www.msnbc.com"
+        "quote": "We have to protect Americans’ civil liberties. And we have to discover and disrupt terrorist plots before they can be carried out. That's why I support the bipartisan USA Freedom Act President Obama recently signed into law, which protects privacy while giving our intelligence and law enforcement agencies what they need to can keep us safe.",
+        "date": "FEB 03, 2016",
+        "source": "http://www.pridesource.com/article.html?article=75167"
       },
       {
         "candidate": "Cruz",
@@ -254,9 +225,9 @@
       },
       {
         "candidate": "Clinton",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
-        "date": "MAR 07, 2014",
-        "source": "http://www.politico.com"
+        "quote": "As president, I'll work to ensure every child—from every ZIP code—has access to a world-class education, including access to high-quality preschool. We need to strike the right balance on testing—with fewer, fairer and better tests for elementary and secondary school students. And we must support teachers with the training and resources they need.",
+        "date": "MAR 08, 2016",
+        "source": "http://www.detroitnews.com/story/news/politics/elections/2016/03/07/hillary-clinton-rally-detroit/81460478/"
       }
     ]
   },
@@ -265,9 +236,9 @@
     "quotes": [
       {
         "candidate": "Clinton",
-        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
-        "date": "MAY 10, 2003",
-        "source": "http://www.foxnews.com"
+        "quote": "Everyone in America should respect the law and be respected by the law. We need to end mass incarceration, use strategies like police body cameras to improve accountability, increase substance abuse treatment, and aim resources at criminals who pose the greatest threat. And we need to invest in education and job training—the foundations of success.",
+        "date": "FEB 24, 2016",
+        "source": "http://www.salon.com/2016/02/24/grappling_with_racism_in_america_bernie_hillary_tackle_nations_festering_crisis_in_latest_town_hall/"
       },
       {
         "candidate": "Cruz",
@@ -312,9 +283,9 @@
       },
       {
         "candidate": "Clinton",
-        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
-        "date": "SEP 09, 2004",
-        "source": "http://www.politico.com"
+        "quote": "Climate change is real—no matter what climate deniers say. I've laid out bold national goals to address the threats it poses. As president, I’ll say no to drilling in the Arctic. I’ll stop the tax giveaways to big oil and gas companies. And I’ll make significant investments in clean energy.  Our children's health and future depend on it.",
+        "date": "JAN 20, 2016",
+        "source": "https://www.washingtonpost.com/news/energy-environment/wp/2016/01/20/its-official-2015-smashed-2014s-global-temperature-record-it-wasnt-even-close/"
       }
     ]
   },
@@ -335,9 +306,9 @@
       },
       {
         "candidate": "Clinton",
-        "quote": "Nullam mollis vehicula leo, quis vestibulum ipsum. Suspendisse potenti. Integer iaculis lorem et nibh rutrum, non tincidunt elit euismod. Morbi porta ipsum non massa dignissim, non rhoncus nulla consequat. Nulla pellentesque magna non mauris fermentum, a rhoncus arcu venenatis. Proin nec elit id nunc cursus ullamcorper. In ornare, nisi nec pharetra semper, lacus nisl mattis lectus, sed viverra dolor ligula vitae justo. Pellentesque suscipit nisi ligula, in venenatis augue rutrum quis. Nullam quis mauris vitae tellus ullamcorper egestas id porta massa. Aliquam elementum pellentesque malesuada. Morbi cursus mollis nisi, vel elementum massa auctor ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus felis nec posuere luctus.",
-        "date": "JUL 04, 2008",
-        "source": "http://www.msnbc.com"
+        "quote": "We need comprehensive immigration reform with a path to full and equal citizenship. If Congress won't act, I'll defend President Obama’s executive actions—and I'll go even further to keep families together. I'll end family detention, close private immigrant detention centers, and help more eligible people become naturalized.",
+        "date": "APR 19, 2016",
+        "source": "http://www.cbsnews.com/news/hillary-clinton-on-new-york-win-victory-is-in-sight/"
       },
       {
         "candidate": "Trump",
@@ -352,9 +323,9 @@
     "quotes": [
       {
         "candidate": "Clinton",
-        "quote": "In id ipsum quis tellus vulputate suscipit a nec ex. Integer sed semper est. Nam malesuada purus vel hendrerit cursus. Maecenas ultrices volutpat nunc at pharetra. Maecenas mollis ex nec aliquet congue. Vestibulum ultrices, diam facilisis venenatis commodo, lacus felis laoreet odio, vitae laoreet tellus lacus in diam. Curabitur auctor nulla ut facilisis consequat. Duis vitae urna pulvinar, rhoncus orci sed, lobortis ante. Duis porttitor mauris nec elit scelerisque, at feugiat leo volutpat.",
-        "date": "JUN 04, 2011",
-        "source": "http://www.foxnews.com"
+        "quote": "We need to raise pay, create good-paying jobs, and build an economy that works for everyone—not just those at the top. I’ll cut taxes for the middle class, raise the minimum wage, and ensure the wealthiest pay their fair share. I’ll invest in infrastructure and education. And I’ll help parents balance work and family.",
+        "date": "APR 21, 2016",
+        "source": "http://www.politico.com/tipsheets/morning-trade/2016/04/tpp-something-clinton-could-support-mtb-marches-forward-trade-secrets-bill-teed-up-213884"
       },
       {
         "candidate": "Sanders",
@@ -399,9 +370,9 @@
       },
       {
         "candidate": "Clinton",
-        "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis feugiat pharetra neque vitae suscipit. Aliquam erat volutpat. Aliquam orci ligula, suscipit id felis ut, posuere venenatis ipsum. Curabitur aliquam, neque eu vestibulum semper, mauris nibh blandit tellus, a commodo elit risus a metus. Nam eu posuere erat, sit amet finibus ante. Donec accumsan molestie libero, ac pellentesque lacus posuere nec. Nunc vestibulum eget risus vitae ullamcorper. Suspendisse quam enim, semper vitae sem egestas, suscipit pretium felis. Mauris egestas tempor libero, at porta erat auctor eu. Phasellus lacinia luctus pulvinar. Pellentesque congue non lacus a varius. Nulla egestas ultrices mollis. Mauris auctor bibendum egestas. Integer commodo ligula in venenatis lacinia. Ut ut lacus mollis, tristique risus sit amet, tristique nulla. Sed ultrices pellentesque sapien, quis suscipit nunc mollis eget.",
-        "date": "OCT 12, 2011",
-        "source": "http://www.politico.com"
+        "quote": "Politicians have no business interfering with women's personal health decisions. I will oppose efforts to roll back women's access to reproductive health care, including Republican efforts to defund Planned Parenthood. As president, I'll stand up for Planned Parenthood and women’s access to critical health services, including safe, legal abortion.",
+        "date": "MAR 07, 2016",
+        "source": "http://www.cbsnews.com/news/hillary-clinton-bernie-sanders-answer-questions-about-abortion/"
       }
     ]
   }
