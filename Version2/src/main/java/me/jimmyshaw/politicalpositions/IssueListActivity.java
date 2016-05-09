@@ -2,6 +2,7 @@ package me.jimmyshaw.politicalpositions;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
@@ -14,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 public class IssueListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -30,6 +32,7 @@ public class IssueListActivity extends AppCompatActivity
 
     private Toolbar mToolbar;
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
+    private ImageView mImageView;
 
     public static Intent newIntent(Context packageContext, String candidateName) {
         Intent intent = new Intent(packageContext, IssueListActivity.class);
@@ -47,6 +50,8 @@ public class IssueListActivity extends AppCompatActivity
 
         mCollapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         mCollapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.CollapsingToolbar);
+
+        mImageView = (ImageView) findViewById(R.id.collapsing_toolbar_image);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle drawerToggle = new ActionBarDrawerToggle(
@@ -140,6 +145,7 @@ public class IssueListActivity extends AppCompatActivity
                 .commit();
         mFragmentOriginal = mFragmentNew;
         changeToolbarText(candidateName);
+        changeToolbarImage(candidateName);
     }
 
     // Change the tool bar's title if the user filters by a particular candidate.
@@ -149,6 +155,24 @@ public class IssueListActivity extends AppCompatActivity
         }
         else {
             mCollapsingToolbarLayout.setTitle(getResources().getString(R.string.app_name));
+        }
+    }
+
+    // Change the tool bar's image if the user filters by a particular candidate.
+    private void changeToolbarImage(String candidateName) {
+        switch (candidateName) {
+            case "Clinton":
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_clinton));
+                break;
+            case "Sanders":
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_sanders));
+                break;
+            case "Trump":
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_trump));
+                break;
+            default:
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_three_candidates));
+                break;
         }
     }
 
