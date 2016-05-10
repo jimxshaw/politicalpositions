@@ -12,6 +12,9 @@ import android.support.v7.app.AppCompatActivity;
 
 import java.util.List;
 
+import me.jimmyshaw.politicalpositions.utilities.DepthPageTransformer;
+import me.jimmyshaw.politicalpositions.utilities.ZoomOutPageTransformer;
+
 
 public class QuotePagerActivity extends AppCompatActivity {
 
@@ -40,6 +43,7 @@ public class QuotePagerActivity extends AppCompatActivity {
         issueId = getIntent().getIntExtra(EXTRA_ISSUE_ID, 0);
 
         mViewPager = (ViewPager) findViewById(R.id.activity_quote_view_pager);
+        mViewPager.setPageTransformer(true, new DepthPageTransformer());
 
         Issue mIssue = IssueLab.get(this).getIssue(mCandidateName, issueId);
 
