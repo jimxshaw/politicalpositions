@@ -2,7 +2,6 @@ package me.jimmyshaw.politicalpositions;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
@@ -162,13 +161,13 @@ public class IssueListActivity extends AppCompatActivity
     private void changeToolbarImage(String candidateName) {
         switch (candidateName) {
             case "Clinton":
-                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_clinton));
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_clinton01));
                 break;
             case "Sanders":
-                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_sanders));
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_sanders01));
                 break;
             case "Trump":
-                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_trump));
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_trump01));
                 break;
             default:
                 mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_three_candidates));

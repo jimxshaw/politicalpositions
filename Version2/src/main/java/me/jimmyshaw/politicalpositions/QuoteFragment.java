@@ -56,13 +56,13 @@ public class QuoteFragment extends Fragment {
 
         switch (mQuote.getCandidate()) {
             case "Clinton":
-                mQuoteCandidateImage.setImageResource(R.drawable.img_clinton);
+                mQuoteCandidateImage.setImageResource(R.drawable.img_clinton01);
                 break;
             case "Sanders":
-                mQuoteCandidateImage.setImageResource(R.drawable.img_sanders);
+                mQuoteCandidateImage.setImageResource(R.drawable.img_sanders01);
                 break;
             case "Trump":
-                mQuoteCandidateImage.setImageResource(R.drawable.img_trump);
+                mQuoteCandidateImage.setImageResource(R.drawable.img_trump01);
                 break;
             default:
                 break;

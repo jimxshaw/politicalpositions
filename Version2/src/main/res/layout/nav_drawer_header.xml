@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="190dp"
-    android:background="@drawable/nav_drawer_header_background">
+    android:background="@drawable/img_nav_drawer_header">
 
     <!-- Guidelines -->>
     <!-- Subtitle : 56dp -->
