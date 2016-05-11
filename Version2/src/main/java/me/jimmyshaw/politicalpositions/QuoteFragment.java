@@ -27,6 +27,8 @@ public class QuoteFragment extends Fragment {
     private TextView mQuoteSource;
     private TextView mQuoteDate;
 
+    private double mRandomNumber;
+
     public static Fragment newInstance(String candidateName, int issueId, int quoteId) {
         Bundle args = new Bundle();
         args.putString(ARG_CANDIDATE_NAME, candidateName);
@@ -41,6 +43,8 @@ public class QuoteFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        mRandomNumber = Math.random();
+
         mCandidateName = getArguments().getString(ARG_CANDIDATE_NAME);
         int issueId = getArguments().getInt(ARG_ISSUE_ID, 0);
         int quoteId = getArguments().getInt(ARG_QUOTE_ID, 0);
@@ -54,19 +58,7 @@ public class QuoteFragment extends Fragment {
 
         mQuoteCandidateImage = (ImageView) view.findViewById(R.id.fragment_quote_image);
 
-        switch (mQuote.getCandidate()) {
-            case "Clinton":
-                mQuoteCandidateImage.setImageResource(R.drawable.img_clinton01);
-                break;
-            case "Sanders":
-                mQuoteCandidateImage.setImageResource(R.drawable.img_sanders01);
-                break;
-            case "Trump":
-                mQuoteCandidateImage.setImageResource(R.drawable.img_trump01);
-                break;
-            default:
-                break;
-        }
+        randomizeCandidateImages(mQuote.getCandidate());
 
         mQuoteCandidateName = (TextView) view.findViewById(R.id.fragment_quote_candidate_name);
         mQuoteCandidateName.setText(mQuote.getCandidate());
@@ -91,5 +83,37 @@ public class QuoteFragment extends Fragment {
         mQuoteDate.setText(date);
 
         return view;
+    }
+
+    private void randomizeCandidateImages(String candidateName) {
+
+        switch (candidateName) {
+            case "Clinton":
+                if (mRandomNumber > 0.5) {
+                    mQuoteCandidateImage.setImageResource(R.drawable.img_clinton01);
+                }
+                else {
+                    mQuoteCandidateImage.setImageResource(R.drawable.img_clinton02);
+                }
+                break;
+            case "Sanders":
+                if (mRandomNumber < 0.5) {
+                    mQuoteCandidateImage.setImageResource(R.drawable.img_sanders01);
+                }
+                else {
+                    mQuoteCandidateImage.setImageResource(R.drawable.img_sanders02);
+                }
+                break;
+            case "Trump":
+                if (mRandomNumber < 0.75 && mRandomNumber > 0.25) {
+                    mQuoteCandidateImage.setImageResource(R.drawable.img_trump01);
+                }
+                else {
+                    mQuoteCandidateImage.setImageResource(R.drawable.img_trump02);
+                }
+                break;
+            default:
+                break;
+        }
     }
 }

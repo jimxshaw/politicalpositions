@@ -13,8 +13,6 @@ import android.support.v7.app.AppCompatActivity;
 import java.util.List;
 
 import me.jimmyshaw.politicalpositions.utilities.DepthPageTransformer;
-import me.jimmyshaw.politicalpositions.utilities.ZoomOutPageTransformer;
-
 
 public class QuotePagerActivity extends AppCompatActivity {
 
