@@ -4,6 +4,24 @@
     "quotes": [
       {
         "candidate": "Clinton",
+        "quote": "We need to implement all of the president's executive actions (on climate) and quickly move to make a bridge from coal to natural gas to clean energy.",
+        "date": "MAR 15, 2016",
+        "source": "http://www.agri-pulse.com/Presidential-candidates-clash-over-climate-change-03152016.asp"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "I will work toward a 100% clean energy system and create millions of jobs. We have little time to aggressively cut carbon emissions. Transitioning to a 100% clean energy system for electricity, heating, and transportation is possible and affordable. It will create millions of jobs, clean up our air and water and decrease dependence on foreign oil.",
+        "date": "DEC 12, 2015",
+        "source": "http://www.hngn.com/articles/159793/20151212/bernie-sanders-paris-climate-deal-good-enough.htm"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "I'm in favor of nuclear energy, very strongly in favor of nuclear energy.",
+        "date": "FEB 20, 2016",
+        "source": "http://dailycaller.com/2016/02/20/heres-where-the-2016-candidates-stand-on-nuclear-power/"
+      },
+      {
+        "candidate": "Clinton",
         "quote": "On my first day as President, I'll set two big goals. I want the U.S. to have half a billion solar panels by 2020. And I want us to generate enough renewable electricity to power every home in America in the next 10 years. With the right investments, we’ll create good-paying jobs and make America the world’s clean energy superpower.",
         "date": "FEB 13, 2016",
         "source": "http://lasvegassun.com/news/2016/feb/13/hillary-clinton-campaigns-with-casino-workers-gues/"
@@ -42,6 +60,24 @@
         "quote": "Honoring veterans is a solemn duty. I'll reform the VA—not privatize it. I’ll ensure our veterans get quality health care without enduring long waits, increase education and job opportunities, and end the appeals backlog—because veterans shouldn't have to fight for benefits. And I'll work to end crises many veterans face: homelessness and suicide.",
         "date": "FEB 08, 2016",
         "source": "http://www.nysun.com/national/veterans-issue-emerges-as-a-major-marker-twixt/89447/"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "The power to choose will stop the wait time backlogs and force the VA to improve and compete if the department wants to keep receiving veterans' healthcare dollars.",
+        "date": "OCT 31, 2015",
+        "source": "http://abcnews.go.com/Politics/donald-trump-outlines-plan-reform-veterans-affairs/story?id=34878656"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "The unequivocal goal of the VA must be to provide the highest-quality health care possible to all of our veterans in a timely manner.",
+        "date": "JUN 01, 2014",
+        "source": "http://www.cnn.com/2015/10/28/politics/bernie-sanders-hillary-clinton-negative-attacks/"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "I'm absolutely against privatizing the V.A. ... this is another part of the Koch brothers agenda. They've actually formed an organization to try to begin to convince Americans we should no longer have guaranteed health care, specialized care for our veterans.",
+        "date": "FEB 08, 2016",
+        "source": "http://www.nysun.com/national/veterans-issue-emerges-as-a-major-marker-twixt/89447/"
       }
     ]
   },
@@ -65,6 +101,24 @@
         "quote": "The wealthiest pay too little in taxes while the middle class needs more relief. I'm going to fix that. I’ll close corporate tax loopholes and make sure millionaires and billionaires can’t pay lower rates than middle-class families. And I’ll give tax relief to working families who are struggling with costs from college to health care.",
         "date": "DEC 19, 2015",
         "source": "http://www.thedailybeast.com/articles/2015/12/19/hillary-shrugs-off-another-democratic-debate.html"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "By my calculations 1 percent of Americans who control 90 percent of the wealth in this country would be affected by my plan -- the other 99 percent of the people would get deep reductions in their federal income taxes.",
+        "date": "FEB 26, 2016",
+        "source": "http://www.huffingtonpost.com/entry/donald-trump-big-socialist-idea_us_56cfa6cae4b0871f60eae43b"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "We have got to change our national priorities -- no more tax breaks for billionaires and large corporations.",
+        "date": "MAR 07, 2016",
+        "source": "http://www.usnews.com/news/articles/2016-03-07/hillary-clinton-goes-to-bat-for-national-teachers-unions-in-democratic-debate"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "Something is wrong when CEOs earn more than 300 times than what the typical American worker earns and when hedge fund managers pay a lower tax rate than truck drivers or nurses.",
+        "date": "AUG 23, 2015",
+        "source": "http://www.bloomberg.com/politics/articles/2015-08-23/donald-trump-puts-hedge-fund-guys-on-notice"
       }
     ]
   },
@@ -88,6 +142,24 @@
         "quote": "The most important job of the president is to keep Americans safe. That means standing up to aggressors around the world and defeating global terrorism by depriving ISIS of physical and virtual territory. I’ll dismantle the global terror networks that supply terrorists and toughen our defenses at home—against both external and homegrown threats.",
         "date": "MAR 15, 2016",
         "source": "http://www.mysanantonio.com/business/fool/article/Bernie-Sanders-Vs-Hillary-Clinton-Who-Is-Better-6891858.php"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "We need a strong military, it is a dangerous world. But I think we can make judicious cuts.",
+        "date": "APR 01, 2016",
+        "source": "http://www.politico.com/magazine/story/2016/03/2016-election-defense-military-industry-contractors-donations-money-contributions-presidential-hillary-clinton-bernie-sanders-republican-ted-cruz-213783"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "The military will be so big, so strong, so powerful, nobody is going mess with us.",
+        "date": "FEB 10, 2016",
+        "source": "http://www.masslive.com/politics/index.ssf/2016/02/new_hampshire_primary_2016_republican_winner_donald_trump_manchester_speech.html"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "Military force must always be a last resort...I will be a very careful, deliberate decision-maker when making hard choices because I know what's at stake.",
+        "date": "FEB 04, 2016",
+        "source": "http://www.eagletribune.com/news/clinton-tackles-trustworthiness-sanders-takes-on-electability/article_d581a236-cb0e-11e5-8e98-83651ce34c02.html"
       }
     ]
   },
@@ -99,6 +171,24 @@
         "quote": "I've fought for quality, affordable health care my entire career. As president, I'll defend the Affordable Care Act, build on its successes, and go even further to reduce costs. My plan will crack down on drug companies charging excessive prices, slow the growth of out-of-pocket costs, and provide a new credit to those facing high health expenses.",
         "date": "MAR 02, 2016",
         "source": "http://realmoney.thestreet.com/articles/03/01/2016/valeant-parries-clinton-attack-defense-drug-prices"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "We're going to repeal and replace the horror known as Obamacare, it is a horror.",
+        "date": "FEB 28, 2016",
+        "source": "http://www.ozarksfirst.com/news/ozarks-politics/trump-expects-to-win-arkansas"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "We have to understand, we should be thinking big, not small. We need to join the rest of the industrialized world and guarantee health care to all people.",
+        "date": "APR 15, 2016",
+        "source": "http://www.courthousenews.com/2016/04/14/wrangling-turns-bitter-at-democratic-debate.htm"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "I will direct the government to reevaluate Medicare and Medicaid payment practices, to remove obstacles to reimbursement and help integrate care for addiction into standard practice.",
+        "date": "SEP 15, 2015",
+        "source": "https://psmag.com/gathering-political-support-for-heroin-addiction-s-most-effective-treatment-d9eb84364f7a#.ljjwvgr9w"
       },
       {
         "candidate": "Trump",
@@ -134,12 +224,48 @@
         "quote": "I voted against the war in Iraq and if you go to my website, listen to the speech that I gave when I was in the House in 2002, saying, yes, it's easy to get rid of a dictator like Saddam Hussein, but there's going to be a political vacuum, there will be instability.",
         "date": "JAN 26, 2016",
         "source": "http://forward.com/news/breaking-news/331911/hillary-clinton-makes-her-power-to-persuade-israel-a-selling-point/"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "We have to fight in the air, fight on the ground and fight them on the Internet. We have to do everything we can with our friends and partners around the world. That's what we'll hear from the president, to intensify the current strategy.",
+        "date": "DEC 16, 2015",
+        "source": "http://www.houstonchronicle.com/news/nation-world/washington/article/San-Bernardino-massacre-underlines-a-divide-among-6680441.php"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "I want other countries to get on the ground fighting ISIS.",
+        "date": "NOV 19, 2015",
+        "source": "http://www.lowellsun.com/todaysheadlines/ci_29138451/trump-sends-sparks-flying-worcester"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "I voted against the war in Iraq and if you go to my website, listen to the speech that I gave when I was in the House in 2002, saying, yes, it's easy to get rid of a dictator like Saddam Hussein, but there's going to be a political vacuum, there will be instability.",
+        "date": "JAN 26, 2016",
+        "source": "http://forward.com/news/breaking-news/331911/hillary-clinton-makes-her-power-to-persuade-israel-a-selling-point/"
       }
     ]
   },
   {
     "title": "Civil liberties",
     "quotes": [
+      {
+        "candidate": "Trump",
+        "quote": "I want surveillance and I don't care. Are you ready for this, are you ready?",
+        "date": "NOV 21, 2015",
+        "source": "http://wiat.com/2015/11/21/donald-trump-rally-in-birmingham/"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "I would hope and I believe that every person understands that it is unacceptable to judge people, to discriminate against people based on the color of their skin.",
+        "date": "SEP 15, 2015",
+        "source": "http://newsone.com/3182155/bernie-sanders-america-was-created-on-racist-principles/"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "My advocacy for the Equality Act is going to be at the top of my list when I'm president.",
+        "date": "FEB 08, 2016",
+        "source": "http://www.teenvogue.com/story/hillary-clinton-lgbt-rights-new-hampshire"
+      },
       {
         "candidate": "Trump",
         "quote": "I want surveillance and I don't care. Are you ready for this, are you ready?",
@@ -177,6 +303,24 @@
       },
       {
         "candidate": "Clinton",
+        "quote": "I strongly oppose voucher schemes because they divert precious resources away from financially strapped public schools to private schools that are not subject to the same accountability standards or teacher quality standards.",
+        "date": "MAR 24, 2016",
+        "source": "http://www.forbes.com/sites/maureensullivan/2016/03/24/why-are-democrats-against-allowing-poor-boys-to-attend-the-great-school-profiled-on-60-minutes/#6c10d91550c8"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "I'm a tremendous believer in education, but education has to be at a local level. We cannot have the bureaucrats in Washington telling you how to manage your child's education.",
+        "date": "FEB 25, 2016",
+        "source": "https://www.publicintegrity.org/2016/02/25/19366/small-businesses-trump-just-get-somebody-different-there"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "When we talk about free public education in America, it shouldn't mean just K through 12, it should mean free tuition to public universities and colleges all over the nation.",
+        "date": "FEB 28, 2016",
+        "source": "http://www.theshorthorn.com/news/feeling-the-bern-in-grand-prairie/article_1ec68c8a-ddc6-11e5-b2f0-87c76a28e2ec.html"
+      },
+      {
+        "candidate": "Clinton",
         "quote": "As president, I'll work to ensure every child—from every ZIP code—has access to a world-class education, including access to high-quality preschool. We need to strike the right balance on testing—with fewer, fairer and better tests for elementary and secondary school students. And we must support teachers with the training and resources they need.",
         "date": "MAR 08, 2016",
         "source": "http://www.detroitnews.com/story/news/politics/elections/2016/03/07/hillary-clinton-rally-detroit/81460478/"
@@ -186,6 +330,24 @@
   {
     "title": "Crime and safety",
     "quotes": [
+      {
+        "candidate": "Clinton",
+        "quote": "We need to restore the trust that has been lost between law enforcement and the people they serve.",
+        "date": "MAR 02, 2016",
+        "source": "http://www.postcrescent.com/story/news/politics/elections/2016/03/02/how-presidential-primary-plays-out-wisconsin/81102596/"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "Anytime a person is killed while being apprehended by police or dies in police custody it should automatically trigger a Department of Justice investigation.",
+        "date": "MAR 13, 2016",
+        "source": "http://www.dailyherald.com/article/20160312/news/160319563/"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "If they make one mistake its on your newscasts all night, all week, all month. The police in this country have done an unbelievable job of keeping law and order.",
+        "date": "FEB 07, 2016",
+        "source": "http://www.businessinsider.com/gop-debate-live-blog-abc-2016-2"
+      },
       {
         "candidate": "Clinton",
         "quote": "Everyone in America should respect the law and be respected by the law. We need to end mass incarceration, use strategies like police body cameras to improve accountability, increase substance abuse treatment, and aim resources at criminals who pose the greatest threat. And we need to invest in education and job training—the foundations of success.",
@@ -209,6 +371,24 @@
   {
     "title": "Environment",
     "quotes": [
+      {
+        "candidate": "Sanders",
+        "quote": "The debate is over, climate change is real.",
+        "date": "FEB 14, 2016",
+        "source": "http://www.easternecho.com/article/2016/02/bernie-sanders-visits-emu-convocation-center"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "Snowing in Texas and Louisiana, record setting freezing temperatures throughout the country and beyond. Global warming is an expensive hoax.",
+        "date": "JAN 24, 2016",
+        "source": "http://www.politifact.com/truth-o-meter/statements/2016/jan/24/bernie-s/yes-donald-trump-really-did-tweet-climate-change-h/"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "By the time we get through all of my conditions, I do not think there will be many places in America where fracking will continue.",
+        "date": "APR 14, 2016",
+        "source": "http://www.ibtimes.com/hillary-clinton-bernie-sanders-square-fracking-key-new-york-pennsylvania-primaries-2352704"
+      },
       {
         "candidate": "Sanders",
         "quote": "The debate is over, climate change is real.",
@@ -249,6 +429,24 @@
         "quote": "When politicians talk about 'immigration reform' they mean: amnesty, cheap labor, and open borders.",
         "date": "AUG 17, 2015",
         "source": "http://www.americanbazaaronline.com/2015/08/17/trump-rails-against-h-1b-visas-in-new-immigration-plan/"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "As president, I will do everything I can to pass immigration reform and a path to citizenship.",
+        "date": "FEB 19, 2016",
+        "source": "http://www.latimes.com/local/lanow/la-na-0219-democrats-town-hall-nevada-20160219-story.html"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "It's unrealistic to say we're going to completely shut down our borders.",
+        "date": "MAR 22, 2016",
+        "source": "http://qz.com/644858/after-the-brussels-attack-trump-calls-it-a-disaster-city-and-cruz-bashes-obama/"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "When politicians talk about 'immigration reform' they mean: amnesty, cheap labor, and open borders.",
+        "date": "AUG 17, 2015",
+        "source": "http://www.americanbazaaronline.com/2015/08/17/trump-rails-against-h-1b-visas-in-new-immigration-plan/"
       }
     ]
   },
@@ -272,12 +470,48 @@
         "quote": "I will bring jobs back from China, I will bring jobs back from Japan. I will bring jobs back from Mexico.",
         "date": "FEB 06, 2016",
         "source": "http://www.politico.com/story/2016/02/gop-debate-rubio-chris-christie-fight-218873"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "I'm going to go to bat for unions and workers because that helped build the middle class in the first place.",
+        "date": "FEB 29, 2016",
+        "source": "http://www.wtsp.com/news/politics/elections/hillary-clinton-shifts-fire-from-sanders-to-gop/62120055"
+      },
+      {
+        "candidate": "Sanders",
+        "quote": "We are going to create trade agreements that work for workers, not just the CEOs of large corporations.",
+        "date": "MAR 14, 2016",
+        "source": "http://www.wkyc.com/news/politics/elections/bernie-sanders-to-rally-in-akron-on-monday/81064585"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "I will bring jobs back from China, I will bring jobs back from Japan. I will bring jobs back from Mexico.",
+        "date": "FEB 06, 2016",
+        "source": "http://www.politico.com/story/2016/02/gop-debate-rubio-chris-christie-fight-218873"
       }
     ]
   },
   {
     "title": "Abortion",
     "quotes": [
+      {
+        "candidate": "Sanders",
+        "quote": "I happen to believe that it is wrong for the government to be telling a woman what to do with her own body.",
+        "date": "MAR 08, 2016",
+        "source": "http://www.huffingtonpost.com/entry/democratic-debate-abortion_us_56de11c8e4b03a405679a43d"
+      },
+      {
+        "candidate": "Trump",
+        "quote": "I'm pro-life, but with the caveats. It's life of the mother, very important, incest and rape.",
+        "date": "OCT 15, 2015",
+        "source": "https://www.washingtonpost.com/news/wonk/wp/2015/10/15/i-asked-psychologists-to-analyze-trump-supporters-this-is-what-i-learned/"
+      },
+      {
+        "candidate": "Clinton",
+        "quote": "Under Roe versus Wade, women have this right to make this highly personal decision with their family in accordance with their faith, with their doctor.",
+        "date": "MAR 08, 2016",
+        "source": "http://www.huffingtonpost.com/entry/democratic-debate-abortion_us_56de11c8e4b03a405679a43d"
+      },
       {
         "candidate": "Sanders",
         "quote": "I happen to believe that it is wrong for the government to be telling a woman what to do with her own body.",
