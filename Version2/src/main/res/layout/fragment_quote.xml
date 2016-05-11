@@ -1,42 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout 
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    
-    <ImageView
-        android:id="@+id/fragment_quote_image"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/fragment_quote_image_height"
-        android:layout_margin="@dimen/md_keylines"
-        android:scaleType="centerCrop"
-        android:src="@drawable/img_sanders01"/>
 
-    <TextView
-        android:id="@+id/fragment_quote_candidate_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@id/fragment_quote_image"
-        android:layout_alignBottom="@id/fragment_quote_image"
-        android:layout_alignLeft="@id/fragment_quote_image"
-        android:layout_alignRight="@id/fragment_quote_image"
-        android:layout_margin="1dp"
-        android:textStyle="bold"
-        android:textSize="50sp"
-        android:gravity="center"
-        android:text="CANDIDATE"
-        android:textColor="@color/colorAccent"
-        android:shadowColor="#FFFFFF"
-        android:shadowDx="0.0"
-        android:shadowDy="0.0"
-        android:shadowRadius="7.5" />
-
-    <ScrollView
-        android:id="@+id/fragment_quote_scroll_view"
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/relativeLayout"
-        android:layout_alignParentStart="true">
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/fragment_quote_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_quote_image_height"
+            android:layout_margin="@dimen/md_keylines"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_sanders01"/>
+
+        <TextView
+            android:id="@+id/fragment_quote_candidate_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/fragment_quote_image"
+            android:layout_alignBottom="@id/fragment_quote_image"
+            android:layout_alignLeft="@id/fragment_quote_image"
+            android:layout_alignRight="@id/fragment_quote_image"
+            android:layout_margin="1dp"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:text="CANDIDATE"
+            android:textColor="@color/colorAccent"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="7.5" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/fragment_quote_relative_layout"
+            android:layout_below="@+id/fragment_quote_candidate_name"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/fragment_quote_source"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="@dimen/md_keylines"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_alignParentLeft="true"
+                android:text="@string/fragment_quote_source_text"
+                android:textSize="@dimen/fragment_quote_text"/>
+
+            <TextView
+                android:id="@+id/fragment_quote_date"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="@dimen/md_keylines"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_alignParentRight="true"
+                android:text="@string/fragment_quote_date_text"
+                android:textSize="@dimen/fragment_quote_text"/>
+        </RelativeLayout>
 
         <TextView
             android:id="@+id/fragment_quote_text"
@@ -44,6 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/md_keylines"
             android:layout_marginRight="@dimen/md_keylines"
+            android:layout_below="@id/fragment_quote_relative_layout"
             android:paddingBottom="20dp"
             android:text="THIS IS THE QUOTE!!!!"
             android:ellipsize="end"
@@ -51,38 +82,6 @@
             android:textColor="@color/dark_grey"
             android:textSize="@dimen/fragment_quote_text"/>
 
-    </ScrollView>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:id="@+id/relativeLayout"
-        android:layout_below="@+id/fragment_quote_candidate_name"
-        android:layout_alignParentStart="true">
-
-        <TextView
-            android:id="@+id/fragment_quote_source"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_margin="@dimen/md_keylines"
-            android:textStyle="bold"
-            android:textColor="@color/colorAccent"
-            android:layout_alignParentLeft="true"
-            android:text="@string/fragment_quote_source_text"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:id="@+id/fragment_quote_date"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_margin="@dimen/md_keylines"
-            android:textStyle="bold"
-            android:textColor="@color/colorAccent"
-            android:layout_alignParentRight="true"
-            android:text="@string/fragment_quote_date_text"
-            android:textSize="20sp"/>
-
     </RelativeLayout>
 
-</RelativeLayout>
+</ScrollView>
