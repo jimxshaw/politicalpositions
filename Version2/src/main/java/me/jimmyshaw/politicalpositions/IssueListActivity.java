@@ -161,13 +161,13 @@ public class IssueListActivity extends AppCompatActivity
     private void changeToolbarImage(String candidateName) {
         switch (candidateName) {
             case "Clinton":
-                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_clinton01));
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_clinton03));
                 break;
             case "Sanders":
-                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_sanders01));
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_sanders03));
                 break;
             case "Trump":
-                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_trump01));
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_trump03));
                 break;
             default:
                 mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_three_candidates));
