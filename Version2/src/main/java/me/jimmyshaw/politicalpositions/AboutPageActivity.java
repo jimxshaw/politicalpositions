@@ -16,14 +16,13 @@ public class AboutPageActivity extends AppCompatActivity {
         Element versionElement = new Element();
         versionElement.setTitle("Version 1.0");
 
-        Element advertisingElement = new Element();
-        advertisingElement.setTitle("Advertise with us");
+//        Element advertisingElement = new Element();
+//        advertisingElement.setTitle("Advertise with us");
 
         View aboutPage = new AboutPage(this).isRTL(false)
                                             .setImage(R.drawable.img_company_logo)
-                                            .setDescription("Political Positions 2016 by Jimmy Shaw")
+                                            .setDescription("US Election 2016 Issues by Jimmy Shaw")
                                             .addItem(versionElement)
-                                            .addItem(advertisingElement)
                                             .addGroup("Connect with us")
                                             .addGitHub("jimxshaw")
                                             .addWebsite("http://www.guildsa.org")

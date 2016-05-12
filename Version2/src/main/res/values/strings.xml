@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Political Positions 2016</string>
+    <string name="app_name">US Election 2016 Issues</string>
 
+    <string name="navigation_drawer_header_subtitle">Candidate Filter</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
