@@ -95,19 +95,19 @@ public class IssueListFragment extends Fragment {
                 case "Defense":
                     mIconImageView.setImageResource(R.drawable.ic_issues_defense);
                     break;
-                case "Health care":
+                case "Health Care":
                     mIconImageView.setImageResource(R.drawable.ic_issues_health_care);
                     break;
-                case "Foreign policy":
+                case "Foreign Policy":
                     mIconImageView.setImageResource(R.drawable.ic_issues_foreign_policy);
                     break;
-                case "Civil liberties":
+                case "Civil Liberties":
                     mIconImageView.setImageResource(R.drawable.ic_issues_civil_liberties);
                     break;
                 case "Education":
                     mIconImageView.setImageResource(R.drawable.ic_issues_education);
                     break;
-                case "Crime and safety":
+                case "Crime & Safety":
                     mIconImageView.setImageResource(R.drawable.ic_issues_crime_safety);
                     break;
                 case "Environment":
