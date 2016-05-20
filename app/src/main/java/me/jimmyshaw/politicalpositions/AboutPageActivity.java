@@ -1,5 +1,7 @@
 package me.jimmyshaw.politicalpositions;
 
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -14,7 +16,16 @@ public class AboutPageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         Element versionElement = new Element();
-        versionElement.setTitle("Version 1.0");
+
+        try
+        {
+            PackageInfo packageInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+            versionElement.setTitle("Version " + packageInfo.versionName);
+        }
+        catch (PackageManager.NameNotFoundException e)
+        {
+            e.printStackTrace();
+        }
 
 //        Element advertisingElement = new Element();
 //        advertisingElement.setTitle("Advertise with us");
