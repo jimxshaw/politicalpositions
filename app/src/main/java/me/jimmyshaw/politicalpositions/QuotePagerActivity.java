@@ -10,6 +10,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 
+import com.viewpagerindicator.LinePageIndicator;
+
 import java.util.List;
 
 import me.jimmyshaw.politicalpositions.utilities.DepthPageTransformer;
@@ -65,6 +67,12 @@ public class QuotePagerActivity extends AppCompatActivity {
                 return mQuotes.size();
             }
         });
+
+        // The line page indicator serves two purposes: one, it alludes to users visually that they
+        // can page through the quotes and two, it show how many quotes are in the currently
+        // view pager activity.
+        LinePageIndicator linePageIndicator = (LinePageIndicator) findViewById(R.id.line_page_indicator);
+        linePageIndicator.setViewPager(mViewPager);
     }
 
 }
