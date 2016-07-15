@@ -131,7 +131,7 @@ public class IssueLab {
                 builder.append(line);
             }
         }
-        catch(IOException ex) {
+        catch (IOException ex) {
             ex.printStackTrace();
         }
 
