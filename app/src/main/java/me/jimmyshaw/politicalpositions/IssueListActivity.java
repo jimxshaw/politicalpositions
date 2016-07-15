@@ -164,7 +164,7 @@ public class IssueListActivity extends AppCompatActivity
                 mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_trump03));
                 break;
             default:
-                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_three_candidates));
+                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_two_candidates));
                 break;
         }
     }
