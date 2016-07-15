@@ -1,4 +1,4 @@
-package me.jimmyshaw.politicalpositions;
+package me.jimmyshaw.politicalpositions.repo;
 
 import android.content.Context;
 import android.support.annotation.RawRes;
@@ -13,6 +13,10 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+
+import me.jimmyshaw.politicalpositions.R;
+import me.jimmyshaw.politicalpositions.model.Issue;
+import me.jimmyshaw.politicalpositions.model.Quote;
 
 public class IssueLab {
 

@@ -1,4 +1,4 @@
-package me.jimmyshaw.politicalpositions;
+package me.jimmyshaw.politicalpositions.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,7 +13,11 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import me.jimmyshaw.politicalpositions.thirdparty.DividerItemDecoration;
+import me.jimmyshaw.politicalpositions.R;
+import me.jimmyshaw.politicalpositions.activity.QuotePagerActivity;
+import me.jimmyshaw.politicalpositions.model.Issue;
+import me.jimmyshaw.politicalpositions.repo.IssueLab;
+import me.jimmyshaw.politicalpositions.utilities.DividerItemDecoration;
 
 public class IssueListFragment extends Fragment {
 

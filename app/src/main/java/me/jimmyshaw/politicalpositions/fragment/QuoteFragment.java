@@ -1,4 +1,4 @@
-package me.jimmyshaw.politicalpositions;
+package me.jimmyshaw.politicalpositions.fragment;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -9,6 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import me.jimmyshaw.politicalpositions.R;
+import me.jimmyshaw.politicalpositions.model.Issue;
+import me.jimmyshaw.politicalpositions.model.Quote;
+import me.jimmyshaw.politicalpositions.repo.IssueLab;
 
 public class QuoteFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package me.jimmyshaw.politicalpositions;
+package me.jimmyshaw.politicalpositions.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,6 +14,11 @@ import com.viewpagerindicator.LinePageIndicator;
 
 import java.util.List;
 
+import me.jimmyshaw.politicalpositions.fragment.QuoteFragment;
+import me.jimmyshaw.politicalpositions.R;
+import me.jimmyshaw.politicalpositions.model.Issue;
+import me.jimmyshaw.politicalpositions.model.Quote;
+import me.jimmyshaw.politicalpositions.repo.IssueLab;
 import me.jimmyshaw.politicalpositions.utilities.DepthPageTransformer;
 
 public class QuotePagerActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package me.jimmyshaw.politicalpositions.thirdparty;
+package me.jimmyshaw.politicalpositions.utilities;
 
 import android.content.Context;
 import android.content.res.TypedArray;

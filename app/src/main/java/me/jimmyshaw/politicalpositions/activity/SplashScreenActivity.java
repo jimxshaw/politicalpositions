@@ -1,4 +1,4 @@
-package me.jimmyshaw.politicalpositions;
+package me.jimmyshaw.politicalpositions.activity;
 
 import android.content.Intent;
 import android.os.Bundle;

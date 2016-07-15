@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".activity.SplashScreenActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:noHistory="true"
             android:screenOrientation="portrait"
@@ -21,25 +21,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IssueListActivity"
+            android:name=".activity.IssueListActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-            android:name=".QuotePagerActivity"
+            android:name=".activity.QuotePagerActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/app_name"
-            android:parentActivityName=".IssueListActivity"
+            android:parentActivityName=".activity.IssueListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
         </activity>
         <activity
-            android:name=".AboutPageActivity"
+            android:name=".activity.AboutPageActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="About This App"
-            android:parentActivityName=".IssueListActivity"
+            android:parentActivityName=".activity.IssueListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
         </activity>

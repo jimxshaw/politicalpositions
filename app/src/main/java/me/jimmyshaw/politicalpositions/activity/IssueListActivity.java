@@ -1,4 +1,4 @@
-package me.jimmyshaw.politicalpositions;
+package me.jimmyshaw.politicalpositions.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +15,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
+
+import me.jimmyshaw.politicalpositions.fragment.IssueListFragment;
+import me.jimmyshaw.politicalpositions.R;
 
 public class IssueListActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
