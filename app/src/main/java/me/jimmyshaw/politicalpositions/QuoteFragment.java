@@ -96,14 +96,6 @@ public class QuoteFragment extends Fragment {
                     mQuoteCandidateImage.setImageResource(R.drawable.img_clinton02);
                 }
                 break;
-            case "Sanders":
-                if (mRandomNumber > 0.5) {
-                    mQuoteCandidateImage.setImageResource(R.drawable.img_sanders01);
-                }
-                else {
-                    mQuoteCandidateImage.setImageResource(R.drawable.img_sanders02);
-                }
-                break;
             case "Trump":
                 if (mRandomNumber > 0.5) {
                     mQuoteCandidateImage.setImageResource(R.drawable.img_trump01);

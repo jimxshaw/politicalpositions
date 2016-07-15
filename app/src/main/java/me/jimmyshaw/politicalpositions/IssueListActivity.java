@@ -160,9 +160,6 @@ public class IssueListActivity extends AppCompatActivity
             case "Clinton":
                 mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_clinton03));
                 break;
-            case "Sanders":
-                mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_sanders03));
-                break;
             case "Trump":
                 mImageView.setImageDrawable(getResources().getDrawable(R.drawable.img_trump03));
                 break;

@@ -16,7 +16,7 @@
             android:layout_height="@dimen/fragment_quote_image_height"
             android:layout_margin="@dimen/md_keylines"
             android:scaleType="centerCrop"
-            android:src="@drawable/img_sanders01"/>
+            android:src="@drawable/img_clinton01"/>
 
         <TextView
             android:id="@+id/fragment_quote_candidate_name"
