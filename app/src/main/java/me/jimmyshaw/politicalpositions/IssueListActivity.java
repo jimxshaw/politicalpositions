@@ -4,9 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -112,12 +112,9 @@ public class IssueListActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem menuItem) {
         // Handle navigation view item clicks here.
-        switch(menuItem.getItemId()) {
+        switch (menuItem.getItemId()) {
             case R.id.nav_drawer_menu_item_clinton:
                 filterIssueListByCandidate(getResources().getString(R.string.candidate_clinton));
-                break;
-            case R.id.nav_drawer_menu_item_sanders:
-                filterIssueListByCandidate(getResources().getString(R.string.candidate_sanders));
                 break;
             case R.id.nav_drawer_menu_item_trump:
                 filterIssueListByCandidate(getResources().getString(R.string.candidate_trump));

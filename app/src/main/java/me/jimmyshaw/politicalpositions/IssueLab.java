@@ -19,7 +19,6 @@ public class IssueLab {
     private static IssueLab sIssueLab;
     private List<Issue> mIssues;
     private List<Issue> mIssuesByClinton;
-    private List<Issue> mIssuesBySanders;
     private List<Issue> mIssuesByTrump;
 
     private IssueLab(Context context) {
@@ -28,7 +27,6 @@ public class IssueLab {
         try {
             parseJSONFromRes(context);
             mIssuesByClinton = filterIssuesByCandidate("Clinton");
-            mIssuesBySanders = filterIssuesByCandidate("Sanders");
             mIssuesByTrump = filterIssuesByCandidate("Trump");
         }
         catch (IOException | JSONException ex) {
@@ -54,8 +52,6 @@ public class IssueLab {
                 return mIssues;
             case "Clinton":
                 return mIssuesByClinton;
-            case "Sanders":
-                return mIssuesBySanders;
             case "Trump":
                 return mIssuesByTrump;
             default:
@@ -89,13 +85,6 @@ public class IssueLab {
         switch (candidateName) {
             case "Clinton":
                 for (Issue issue : mIssuesByClinton) {
-                    if (issue.getId() == id) {
-                        return issue;
-                    }
-                }
-                return null;
-            case "Sanders":
-                for (Issue issue : mIssuesBySanders) {
                     if (issue.getId() == id) {
                         return issue;
                     }

@@ -11,16 +11,9 @@
         <menu>
             <item
                 android:id="@+id/nav_drawer_menu_item_clinton"
+                android:checkable="false"
                 android:icon="@drawable/ic_candidate_clinton"
-                android:checkable="false"
                 android:title="Hillary Clinton"
-                app:showAsAction="always"/>
-
-            <item
-                android:id="@+id/nav_drawer_menu_item_sanders"
-                android:icon="@drawable/ic_candidate_sanders"
-                android:checkable="false"
-                android:title="Bernie Sanders"
                 app:showAsAction="always"/>
         </menu>
 
@@ -33,8 +26,8 @@
         <menu>
             <item
                 android:id="@+id/nav_drawer_menu_item_trump"
-                android:icon="@drawable/ic_candidate_trump"
                 android:checkable="false"
+                android:icon="@drawable/ic_candidate_trump"
                 android:title="Donald Trump"
                 app:showAsAction="always"/>
         </menu>
@@ -43,48 +36,9 @@
 
     <item
         android:id="@+id/nav_drawer_menu_item_no_filter"
-        android:icon="@drawable/ic_filter_off"
         android:checkable="false"
+        android:icon="@drawable/ic_filter_off"
         android:title="No filter"
         app:showAsAction="always"/>
 
 </menu>
-
-
-
-
-<!--<menu xmlns:android="http://schemas.android.com/apk/res/android">-->
-
-    <!--<group android:checkableBehavior="single">-->
-        <!--<item-->
-            <!--android:id="@+id/nav_camera"-->
-            <!--android:icon="@drawable/ic_menu_camera"-->
-            <!--android:title="Import"/>-->
-        <!--<item-->
-            <!--android:id="@+id/nav_gallery"-->
-            <!--android:icon="@drawable/ic_menu_gallery"-->
-            <!--android:title="Gallery"/>-->
-        <!--<item-->
-            <!--android:id="@+id/nav_slideshow"-->
-            <!--android:icon="@drawable/ic_menu_slideshow"-->
-            <!--android:title="Slideshow"/>-->
-        <!--<item-->
-            <!--android:id="@+id/nav_manage"-->
-            <!--android:icon="@drawable/ic_menu_manage"-->
-            <!--android:title="Tools"/>-->
-    <!--</group>-->
-
-    <!--<item android:title="Communicate">-->
-        <!--<menu>-->
-            <!--<item-->
-                <!--android:id="@+id/nav_share"-->
-                <!--android:icon="@drawable/ic_menu_share"-->
-                <!--android:title="Share"/>-->
-            <!--<item-->
-                <!--android:id="@+id/nav_send"-->
-                <!--android:icon="@drawable/ic_menu_send"-->
-                <!--android:title="Send"/>-->
-        <!--</menu>-->
-    <!--</item>-->
-
-<!--</menu>-->
