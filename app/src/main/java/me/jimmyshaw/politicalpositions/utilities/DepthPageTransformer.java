@@ -15,14 +15,16 @@ public class DepthPageTransformer implements ViewPager.PageTransformer {
             // This page is way off-screen to the left.
             page.setAlpha(0);
 
-        } else if (position <= 0) { // [-1,0]
+        }
+        else if (position <= 0) { // [-1,0]
             // Use the default slide transition when moving to the left page.
             page.setAlpha(1);
             page.setTranslationX(0);
             page.setScaleX(1);
             page.setScaleY(1);
 
-        } else if (position <= 1) { // (0,1]
+        }
+        else if (position <= 1) { // (0,1]
             // Fade the page out.
             page.setAlpha(1 - position);
 
@@ -35,7 +37,8 @@ public class DepthPageTransformer implements ViewPager.PageTransformer {
             page.setScaleX(scaleFactor);
             page.setScaleY(scaleFactor);
 
-        } else { // (1,+Infinity]
+        }
+        else { // (1,+Infinity]
             // This page is way off-screen to the right.
             page.setAlpha(0);
         }

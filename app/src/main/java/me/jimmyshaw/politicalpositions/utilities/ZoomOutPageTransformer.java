@@ -38,7 +38,7 @@ public class ZoomOutPageTransformer implements ViewPager.PageTransformer {
 
             // Fade the page relative to its size.
             page.setAlpha(MIN_ALPHA + (scaleFactor - MIN_SCALE) /
-                                        (1 - MIN_SCALE) * (1 - MIN_ALPHA));
+                    (1 - MIN_SCALE) * (1 - MIN_ALPHA));
         }
         else {
             // (1, +infinity]

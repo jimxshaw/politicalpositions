@@ -17,13 +17,11 @@ public class AboutPageActivity extends AppCompatActivity {
 
         Element versionElement = new Element();
 
-        try
-        {
+        try {
             PackageInfo packageInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
             versionElement.setTitle("Version " + packageInfo.versionName);
         }
-        catch (PackageManager.NameNotFoundException e)
-        {
+        catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
         }
 
@@ -31,13 +29,13 @@ public class AboutPageActivity extends AppCompatActivity {
 //        advertisingElement.setTitle("Advertise with us");
 
         View aboutPage = new AboutPage(this).isRTL(false)
-                                            .setImage(R.drawable.img_company_logo)
-                                            .setDescription("US Election 2016 Issues\nby\nJimmy Shaw")
-                                            .addItem(versionElement)
-                                            .addGroup("Connect with us")
-                                            .addGitHub("jimxshaw")
-                                            .addWebsite("http://www.guildsa.org")
-                                            .create();
+                .setImage(R.drawable.img_company_logo)
+                .setDescription("US Election 2016 Issues\nby\nJimmy Shaw")
+                .addItem(versionElement)
+                .addGroup("Connect with us")
+                .addGitHub("jimxshaw")
+                .addWebsite("http://www.guildsa.org")
+                .create();
 
         setContentView(aboutPage);
     }
